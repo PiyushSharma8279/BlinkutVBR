@@ -1,0 +1,75 @@
+.content {
+    
+    padding: 10px;
+    font-size: 18px;
+    background-color: #f5faf8;
+}
+
+.txtCont {
+    align-items: flex-start;
+    font-size: 0.8vw;
+    color: white;
+
+    .t1 {
+        font-size: 0.8vw;
+    }
+
+    .t2 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+.icons {
+    font-size: 3vw;
+    color: #cdcfce;
+}
+
+.blackBtn {
+
+    width: 100%;
+    gap: 1vw;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.googleBtn {
+    margin-top: 10px;
+    gap: 0.6vw;
+    padding: 0.2vw 0.5vw;
+    border-radius: 0.2vw;
+    background: black;
+
+
+}
+.appleBtn{
+    margin-top: 10px;
+    gap: 0.6vw;
+    padding: 0.2vw 0.5vw;
+    border-radius: 0.2vw;
+    background: black;
+
+}
+.innCont{
+    margin-top: 2vw;
+}
+.innCont>div :hover{
+    text-decoration: underline;
+   
+}
+.follow-Cont{
+    display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 10px;
+     margin-top: 10px;
+}
+.logos{
+    font-size: 40px;
+    background-color: #494a4a;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
