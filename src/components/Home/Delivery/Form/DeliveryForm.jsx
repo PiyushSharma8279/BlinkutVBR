@@ -3,10 +3,8 @@ import React from 'react'
 function DeliveryForm() {
     return (
         <>
-         <div>
-                 <div>
-                        <div className='lg:hidden xl:hidden'>
-                        <div className=' h-96  bg-white rounded-2xl  '>
+          
+                        <div className=' h-96  bg-white rounded-2xl lg:hidden xl:hidden  '>
                             <div className=' flex-col justify-between m-6 h-80'>
                                 <div>
                                     <h1 className=' font-bold text-xl p-1 lg:text-2xl'>Become a Blinkut rider</h1>
@@ -60,9 +58,8 @@ function DeliveryForm() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                </div>
+                    
+                
         
         </>
     )
