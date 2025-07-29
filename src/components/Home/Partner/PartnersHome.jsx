@@ -58,7 +58,7 @@ function PartnerHome() {
     return (
         <>
             <div>
-                <div className=" w-[100%] h-120 bg-gradient-to-b from-amber-300 to-green-700 mt-14">
+                <div className=" w-[100%] h-120 bg-gradient-to-b  bg-[#275c5e] to-[#458d92]  mt-14">
                     <img src="https://blinkit.com/careers/sites/default/files/2024-05/partner-masthead-desktop.png" alt="" />
                     <div className="flex justify-center">
                         <h2 className=" text-5xl align-middle text-white font-bold ">Shape the future of instant commerce</h2>
@@ -75,7 +75,7 @@ function PartnerHome() {
                     <div className=" w-[70%] h-140 m-10 ">
                         <h2 className=" text-3xl m-5 font-medium">Opportunities to grow with Blinkit</h2>
                         <div className="grid grid-cols-2 gap-4">
-                            <div className=" h-60  rounded-2xl bg-gradient-to-b from-amber-300 to-green-700  ">
+                            <div className=" h-60  rounded-2xl bg-gradient-to-b  bg-[#275c5e] to-[#458d92]   ">
                                 <div className=" mt-10 flex justify-between">
                                     <div className="h-50 m-4 text-white">
                                         <h3 className=" text-2xl font-bold ">Partner Store</h3>
@@ -89,7 +89,7 @@ function PartnerHome() {
                                 </div>
 
                             </div>
-                            <div className=" h-60   rounded-2xl bg-gradient-to-b from-amber-300 to-green-700">
+                            <div className=" h-60   rounded-2xl bg-gradient-to-b  bg-[#275c5e] to-[#458d92] ">
                                  <div className=" mt-10 flex justify-between">
                                     <div className="h-50 m-4 text-white">
                                         <h3 className=" text-2xl font-bold ">Rent your property</h3>
@@ -102,7 +102,7 @@ function PartnerHome() {
                                     </div>
                                 </div>
                             </div>
-                            <div className=" h-60  rounded-2xl bg-gradient-to-b from-amber-300 to-green-700">
+                            <div className=" h-60  rounded-2xl bg-gradient-to-b  bg-[#275c5e] to-[#458d92] ">
                                  <div className=" mt-10 flex justify-between">
                                     <div className="h-50 m-4 text-white">
                                         <h3 className=" text-2xl font-bold ">Seller</h3>
@@ -114,7 +114,7 @@ function PartnerHome() {
                                     </div>
                                 </div>
                             </div>
-                            <div className=" h-60  rounded-2xl bg-gradient-to-b from-amber-300 to-green-700">
+                            <div className=" h-60  rounded-2xl bg-gradient-to-b  bg-[#275c5e] to-[#458d92] ">
                                  <div className=" mt-10 flex justify-between">
                                     <div className="h-50 m-4 text-white">
                                         <h3 className=" text-2xl font-bold ">Deliver</h3>

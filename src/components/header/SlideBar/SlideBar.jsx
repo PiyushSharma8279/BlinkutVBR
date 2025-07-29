@@ -11,7 +11,20 @@ function SlideBar() {
     const [isOpen, setIsOpen] = useState(false);
     const items = [
         <>
-        <a href="" className='block lg:hidden'>Home</a></>,
+        <a href="">Home</a>
+        </>,
+         <>
+        <a href="">About</a>
+        </>,
+         <>
+        <a href="">Carrer</a>
+        </>,
+         <>
+        <a href="">Partner</a>
+        </>,
+         <>
+        <a href="">Blog</a>
+        </>,
         <>
             <a href="/lead">Lead</a>
         </>,
