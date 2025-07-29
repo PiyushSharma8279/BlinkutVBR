@@ -217,7 +217,7 @@ function DeliveryHome() {
                                             <img
                                                 src={item.img}
                                                 alt=""
-                                                className=" rounded-full h-[100px] w-[100px]"
+                                                className=" rounded-full h-[50px] w-[50px]"
                                             />
                                         </div>
                                     </div>
