@@ -11,19 +11,19 @@ function SlideBar() {
     const [isOpen, setIsOpen] = useState(false);
     const items = [
         <>
-        <a href="">Home</a>
+        <a href="/home">Home</a>
         </>,
          <>
-        <a href="">About</a>
+        <a href="/about">About</a>
         </>,
          <>
-        <a href="">Carrer</a>
+        <a href="/career">Career</a>
         </>,
          <>
-        <a href="">Partner</a>
+        <a href="/partner">Partner</a>
         </>,
          <>
-        <a href="">Blog</a>
+        <a href="/blog">Blog</a>
         </>,
         <>
             <a href="/lead">Lead</a>

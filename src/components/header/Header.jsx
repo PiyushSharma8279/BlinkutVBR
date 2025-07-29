@@ -12,27 +12,27 @@ function Header() {
                     </div>
                     <div className=' flex  justify-evenly items-center p-2 gap-5'>
 
-                        <div>
-                            <h3 className='cursor-pointer font-medium text-white hidden lg:block'>Home</h3>
-                        </div>
-                        <div>
-                            <h3 className='cursor-pointer font-medium text-white  hidden lg:block'>About</h3>
-                        </div>
-                        <div>
-                            <p className='cursor-pointer font-medium text-white  hidden lg:block'>
-                                Careers
 
-                            </p>
-                        </div>
-                        <div>
-                            <Link to="/partner"
-                                className='cursor-pointer font-medium text-white  hidden lg:block'>
-                                Partner
-                            </Link>
-                        </div>
-                        <div>
-                            <h3 className='cursor-pointer font-medium text-white  hidden lg:block'>Blog</h3>
-                        </div>
+                        <a href='/home' className='cursor-pointer font-medium text-white hidden lg:block'>Home</a>
+
+
+                        <a href='/about' className='cursor-pointer font-medium text-white  hidden lg:block'>About</a>
+
+
+                        <a className='cursor-pointer font-medium text-white  hidden lg:block' href='/careers'>
+                            Careers
+
+                        </a>
+
+
+                        <Link to="/partner"
+                            className='cursor-pointer font-medium text-white  hidden lg:block'>
+                            Partner
+                        </Link>
+
+
+                        <a href='/blog' className='cursor-pointer font-medium text-white  hidden lg:block'>Blog</a>
+
 
                         <div className=' mt-2'><SlideBar /></div>
                     </div>
