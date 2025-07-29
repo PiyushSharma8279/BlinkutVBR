@@ -61,9 +61,11 @@ body {
       border-bottom: 1px solid #eee;
       cursor: pointer;
       transition: background-color 0.2s ease;
-      font-size: 15px;
-      font-family: 'Courier New';
-      font-weight: 700;
+      background-color: transparent;
+      font-size: 14px;
+      font-family: Okra, Helvetica, sans-serif;
+      font-weight: 400;
+      color: #1F1F1F;
       
     }
     .item:hover {

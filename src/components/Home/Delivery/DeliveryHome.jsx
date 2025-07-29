@@ -165,7 +165,7 @@ function DeliveryHome() {
                         </div>
                         <div className='flex flex-col lg:flex-row justify-center gap-2.5 my-10 '>
                             <div className=' w-[100%] my-5 lg:w-[80%] xl:w-[80%] flex flex-col lg:flex-row gap-2.5'>
-                                <div className='lg:w-60 h-80  shadow-[0_0_0_1px_rgba(0,0,0,0.1)] rounded-2xl'>
+                                <div className='lg:w-[25%] h-80  shadow-[0_0_0_1px_rgba(0,0,0,0.1)] rounded-2xl'>
                                     <div className=' flex justify-center'>
                                         <img src="https://blinkit.com/careers/sites/default/files/2021-12/deliver-icon-earnings.png" alt="" className='w-28 m-5' />
                                     </div>
@@ -174,7 +174,7 @@ function DeliveryHome() {
                                         <p className='text-center text-[18px] text-[#1F1F1F] font-Okra,Helvetica,sans-serif px-4'>Earn upto ₹50,000 with incentives and other benefits</p>
                                     </div>
                                 </div>
-                                <div className=' h-80 lg:w-60 shadow-[0_0_0_1px_rgba(0,0,0,0.1)] rounded-2xl'>
+                                <div className=' h-80 lg:w-[25%] shadow-[0_0_0_1px_rgba(0,0,0,0.1)] rounded-2xl'>
                                     <div className=' flex justify-center'>
                                         <img src="https://blinkit.com/careers/sites/default/files/2021-12/deliver-icon-two-weeks-payout.png" alt="" className='w-28 m-5' />
                                     </div>
@@ -183,7 +183,7 @@ function DeliveryHome() {
                                         <p className='text-center text-[18px] text-[#1F1F1F] font-Okra,Helvetica,sans-serif px-4'>Earn upto ₹50,000 with incentives and other benefits</p>
                                     </div>
                                 </div>
-                                <div className=' h-80 lg:w-60 shadow-[0_0_0_1px_rgba(0,0,0,0.1)] rounded-2xl'>
+                                <div className=' h-80 lg:w-[25%] shadow-[0_0_0_1px_rgba(0,0,0,0.1)] rounded-2xl'>
                                     <div className=' flex justify-center'>
                                         <img src="https://blinkit.com/careers/sites/default/files/2021-12/deliver-icon-two-weeks-payout.png" alt="" className='w-28 m-5' />
                                     </div>
@@ -192,7 +192,7 @@ function DeliveryHome() {
                                         <p className='text-center text-[18px] text-[#1F1F1F] font-Okra,Helvetica,sans-serif px-4'>Earn upto ₹50,000 with incentives and other benefits</p>
                                     </div>
                                 </div>
-                                <div className=' h-80 lg:w-60 shadow-[0_0_0_1px_rgba(0,0,0,0.1)] rounded-2xl'>
+                                <div className=' h-80 lg:w-[25%] shadow-[0_0_0_1px_rgba(0,0,0,0.1)] rounded-2xl'>
                                     <div className=' flex justify-center'>
                                         <img src="https://blinkit.com/careers/sites/default/files/2023-02/icon-two-weeks-payout.png" alt="" className='w-28 m-5' />
                                     </div>
