@@ -74,8 +74,7 @@ export default function FAQ() {
         <>
             <div className="flex justify-center">
 
-
-                <div className="p-4 w-[90%]">
+                <div className="w-[80%] my-10">
                     <h2 className=" font-extrabold text-xl mb-6 lg:text-3xl">Frequently asked questions</h2>
                     {items.map((item, index) => (
                         <div key={index} className="mb-4">

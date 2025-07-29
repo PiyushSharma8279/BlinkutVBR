@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./delivery.css"
 import FAQ from './FAQs/FAQ';
 import DeliveryForm from './Form/DeliveryForm';
+import { IoLogoGooglePlaystore } from "react-icons/io5"
 
 
 function DeliveryHome() {
@@ -80,8 +81,8 @@ function DeliveryHome() {
                         <div className=' md:block md:bg-none  md:max-w-[40%]  xl:max-h-300px lg:block'>
 
 
-                            <div className='w-[100%] h-96  bg-white rounded-2xl mt-30 hidden lg:block  lg:bg-white '>
-                                <div className=' flex-col justify-between m-6 h-80  md:hidden lg:block'>
+                            <div className='w-[100%] h-96  bg-white rounded-2xl mt-30  hidden lg:block  lg:bg-white '>
+                                <div className=' flex-col justify-betwee m-6 py-5   md:hidden lg:block'>
                                     <div>
                                         <h1 className=' font-bold text-xl p-1 lg:text-2xl'>Become a Blinkut rider</h1>
                                     </div>
@@ -137,7 +138,15 @@ function DeliveryHome() {
                                         <button className='bg-black px-12 py-3 text-white ml-2 rounded-xl' type='submit'>join to earn</button>
                                     </div>
                                     <div className=' w-[100%] flex justify-center' >
-                                        <img src="https://blinkit.com/careers/sites/default/files/2023-02/google_play.png" alt="" className='w-[50%]' />
+                                         <div className="flex flex-row googleBtn w-40  ">
+                                                                    <div className="flex flex-row blackBtn">
+                                                                        <IoLogoGooglePlaystore className="icons" />
+                                                                        <div className="flex flex-col txtCont">
+                                                                            <p className="t1">GET IT ON</p>
+                                                                            <p className="t2">Google Play</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                     </div>
                                 </div>
                             </div>
@@ -148,14 +157,14 @@ function DeliveryHome() {
                     </div>
                     <div>
                         <div className='  flex justify-center mt-5'>
-                            <div className='w-[100%] m-5 lg:w-[80%]'>
+                            <div className='w-[100%] my-5 lg:w-[80%] xl:w-[80%]'>
                                 <h2 className=' text-2xl py-2 sm:text-2xl lg:text-3xl '>Join India’s most loved quick commerce platform</h2>
                                 <p>Become a delivery partner on your own schedule and get best in class pay, among other other benefits. We are looking for dedicated people who take pride in serving fellow Indians.</p>
                             </div>
 
                         </div>
-                        <div>
-                            <div className='flex flex-col lg:flex-row justify-center gap-2.5 m-10'>
+                        <div className='flex flex-col lg:flex-row justify-center gap-2.5 my-10 '>
+                            <div className=' w-[100%] my-5 lg:w-[80%] xl:w-[80%] flex flex-col lg:flex-row gap-2.5'>
                                 <div className='lg:w-60 h-80  shadow-[0_0_0_1px_rgba(0,0,0,0.1)] rounded-2xl'>
                                     <div className=' flex justify-center'>
                                         <img src="https://blinkit.com/careers/sites/default/files/2021-12/deliver-icon-earnings.png" alt="" className='w-28 m-5' />
@@ -165,7 +174,7 @@ function DeliveryHome() {
                                         <p className='text-center text-xl'>Earn upto ₹50,000 with incentives and other benefits</p>
                                     </div>
                                 </div>
-                                <div className=' h-80 lg:w-60 shadow-[0_0_0_1px_rgba(0,0,0,0.1)]'>
+                                <div className=' h-80 lg:w-60 shadow-[0_0_0_1px_rgba(0,0,0,0.1)] rounded-2xl'>
                                     <div className=' flex justify-center'>
                                         <img src="https://blinkit.com/careers/sites/default/files/2021-12/deliver-icon-two-weeks-payout.png" alt="" className='w-28 m-5' />
                                     </div>
@@ -174,7 +183,7 @@ function DeliveryHome() {
                                         <p className='text-center text-xl'>Earn upto ₹50,000 with incentives and other benefits</p>
                                     </div>
                                 </div>
-                                <div className=' h-80 lg:w-60 shadow-[0_0_0_1px_rgba(0,0,0,0.1)]'>
+                                <div className=' h-80 lg:w-60 shadow-[0_0_0_1px_rgba(0,0,0,0.1)] rounded-2xl'>
                                     <div className=' flex justify-center'>
                                         <img src="https://blinkit.com/careers/sites/default/files/2021-12/deliver-icon-two-weeks-payout.png" alt="" className='w-28 m-5' />
                                     </div>
@@ -183,7 +192,7 @@ function DeliveryHome() {
                                         <p className='text-center text-xl'>Earn upto ₹50,000 with incentives and other benefits</p>
                                     </div>
                                 </div>
-                                <div className=' h-80 lg:w-60 shadow-[0_0_0_1px_rgba(0,0,0,0.1)]'>
+                                <div className=' h-80 lg:w-60 shadow-[0_0_0_1px_rgba(0,0,0,0.1)] rounded-2xl'>
                                     <div className=' flex justify-center'>
                                         <img src="https://blinkit.com/careers/sites/default/files/2023-02/icon-two-weeks-payout.png" alt="" className='w-28 m-5' />
                                     </div>
@@ -195,42 +204,46 @@ function DeliveryHome() {
                             </div>
                         </div>
                     </div>
+                    <div className=' flex justify-center'>
 
-                    <div className="overflow-hidden m-auto  p-10  w-[80%]">
-                        <h2 className="font-extrabold text-2xl mb-6 ">Partner testimonials</h2>
 
-                        {/* <button
+
+                        <div className="w-[80%]">
+                            <h2 className="font-extrabold text-2xl mb-6 ">Partner testimonials</h2>
+
+                            {/* <button
                         className="custom-prev"
                         onClick={() => swiperRef.current.swiper.slidePrev()}
                      >
                         ❮
                      </button>  */}
-                        <Slider {...settings}>
-                            {categoryImg.map((item, index) => (
-                                <div key={index} className="flex  justify-center  gap-4  bg-gray-600 ">
-                                    <div className='h-[200px] w-[100%] lg:flex-row flex flex-col justify-between items-center p-6'>
-                                        <div>
-                                            <p className=' text-white text-xs'>{item.text}</p>
+                            <Slider {...settings}>
+                                {categoryImg.map((item, index) => (
+                                    <div key={index} className="flex  justify-center  gap-4  bg-gray-600 ">
+                                        <div className='h-[200px] w-[100%] lg:flex-row flex flex-col justify-between items-center p-6'>
+                                            <div>
+                                                <p className=' text-white text-xs'>{item.text}</p>
 
-                                        </div>
-                                        <div>
-                                            <img
-                                                src={item.img}
-                                                alt=""
-                                                className=" rounded-full h-[50px] w-[50px]"
-                                            />
+                                            </div>
+                                            <div>
+                                                <img
+                                                    src={item.img}
+                                                    alt=""
+                                                    className=" rounded-full h-[50px] w-[50px]"
+                                                />
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            ))}
-                        </Slider>
+                                ))}
+                            </Slider>
 
-                        {/* <button
+                            {/* <button
                         className="custom-next"
                         onClick={() => swiperRef.current.swiper.slideNext()}
                      >
                         ❯
                      </button>  */}
+                        </div>
                     </div>
                 </div>
 
