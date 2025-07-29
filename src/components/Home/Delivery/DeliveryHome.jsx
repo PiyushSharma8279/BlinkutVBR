@@ -208,7 +208,7 @@ function DeliveryHome() {
                         <Slider {...settings}>
                             {categoryImg.map((item, index) => (
                                 <div key={index} className="flex  justify-center  gap-4  bg-gray-600 ">
-                                    <div className='h-[300px] w-[100%] lg:flex-row flex flex-col justify-between items-center p-6'>
+                                    <div className='h-[200px] w-[100%] lg:flex-row flex flex-col justify-between items-center p-6'>
                                         <div>
                                             <p className=' text-white text-xs'>{item.text}</p>
 
