@@ -14,7 +14,37 @@
     color: black;
     
 }
-.custom-prev{
-    margin-top: 50px;
-    margin: 5px;
+/* .slick-next,
+.slick-prev{
+    display: none !important
+} */
+ 
+
+.slick-next,
+.slick-prev{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
 }
+/* .SlidePrev,
+  .SlideNext{
+    border: 2px solid blue;
+    position: absolute;
+    top: 48%;
+    transform: translateY(-50%);
+    background-color: white;
+    color: black;
+    font-size: 1.25vw;
+    border: none;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    z-index:10;
+    box-shadow: 0 4px 15px rgba(63, 64, 64, 0.6);
+  } */

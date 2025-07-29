@@ -4,20 +4,27 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./delivery.css"
 import FAQ from './FAQs/FAQ';
+import DeliveryForm from './Form/DeliveryForm';
+
 
 function DeliveryHome() {
 
     const categoryImg = [
         {
-            img: "https://blinkit.com/careers/sites/default/files/2023-02/Group%2023335.png"
+            img: "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
+            text: "First Person Data"
 
         },
         {
-            img: "https://blinkit.com/careers/sites/default/files/2023-02/Group%2023343.png"
+            img: "https://t4.ftcdn.net/jpg/03/83/25/83/240_F_383258331_D8imaEMl8Q3lf7EKU2Pi78Cn0R7KkW9o.jpg",
+            text: "Second Person Data"
+
 
         },
         {
-            img: "https://blinkit.com/careers/sites/default/files/2023-02/Group%2023344.png"
+            img: "https://t4.ftcdn.net/jpg/01/51/99/39/240_F_151993994_mmAYzngmSbNRr6Fxma67Od3WHrSkfG5I.jpg",
+            text: "Third Person Data"
+
 
         }
     ]
@@ -29,6 +36,27 @@ function DeliveryHome() {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1.7
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1.3
+                }
+            }
+
+        ]
     };
 
 
@@ -37,163 +65,174 @@ function DeliveryHome() {
 
     return (
         <>
-            <div className='w-[100%] h-auto'>
-                <div className='bg-gradient-to-b  bg-amber-300 to-green-700 w-[100%] h-150 mt-14 flex justify-around'>
-                    <div className='w-[45%] h-64'>
-                        <img src="https://blinkit.com/careers/sites/default/files/2023-05/ezgif.com-webp-to-png.png" alt="" />
-                        <h1 className=' text-4xl font-extrabold text-white'>
-                            Earn upto ₹ 50,000 with Blinkut Delivery. JOIN NOW!
-                        </h1>
-                        <h2 className='  text-white text-lg'>
-                            JOINING BONUS of upto ₹ 4,000 | Upto ₹ 10 lacs medical insurance
-                        </h2>
-                    </div>
-                    <div className='w-[35%] bg-white h-96 rounded-2xl mt-30 '>
-                        <div className=' flex-col justify-between m-6 h-80'>
-                            <div>
-                                <h1 className=' font-bold text-2xl p-1'>Become a Blinkut rider</h1>
-                            </div>
-                            <div>
-                                <p className=' p-1'>To deliver orders for Blinkit, please fill this form</p>
-                            </div>
-                            <div className='flex justify-around gap-2'>
-                                <div>
-                                    <input type="text" placeholder='name*' className=' bg-gray-200 p-2 rounded-xs' />
-                                </div>
-                                <div>
-                                    <input type="text" placeholder='phone*' className=' bg-gray-200 p-2 rounded-xs' />
-                                    <p className=' text-gray-400'>10 character(s) remaining</p>
-
-                                </div>
-                            </div>
-                            <div>
-                                <select className='w-[96%] p-2 bg-gray-200 m-2 text-gray-400'>
-                                    <option value="" selected="selected" className=' text-gra'>select the city</option>
-                                    <option value="Ahmedabad">Ahmedabad</option>
-                                    <option value="Bengaluru">Bengaluru</option>
-                                    <option value="Chandigarh">Chandigarh</option>
-                                    <option value="Chennai">Chennai</option>
-                                    <option value="Delhi">Delhi</option>
-                                    <option value="Faridabad">Faridabad</option>
-                                    <option value="Gurgaon">Gurgaon</option>
-                                    <option value="Hyderabad">Hyderabad</option>
-                                    <option value="Jaipur">Jaipur</option>
-                                    <option value="Jalandhar">Jalandhar</option>
-                                    <option value="Kanpur">Kanpur</option>
-                                    <option value="Kolkata">Kolkata</option>
-                                    <option value="Lucknow">Lucknow</option>
-                                    <option value="Ludhiana">Ludhiana</option>
-                                    <option value="Meerut">Meerut</option>
-                                    <option value="Mohali">Mohali</option>
-                                    <option value="Mumbai">Mumbai</option>
-                                    <option value="Panchkula">Panchkula</option>
-                                    <option value="Pune">Pune</option>
-                                    <option value="UP-NCR">UP-NCR</option>
-                                    <option value="Vadodara">Vadodara</option>
-                                    <option value="Zirakpur">Zirakpur</option>
-                                </select>
-                            </div>
-                            <div>
-                                <button className='bg-black px-12 py-3 text-white ml-2 rounded-xl' type='submit'>join to earn</button>
-                            </div>
-                            <div className=' w-[100%] flex justify-center' >
-                                <img src="https://blinkit.com/careers/sites/default/files/2023-02/google_play.png" alt="" className='w-[50%]' />
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div>
                 <div>
-                    <div className='  flex justify-center mt-5'>
-                        <div className='w-[80%]'>
-                            <div>
-                                <h2 className=' text-3xl py-5'>Join India’s most loved quick commerce platform</h2>
-                            </div>
-                            <div>
-                                <p>Become a delivery partner on your own schedule and get best in class pay, among other other benefits. We are looking for dedicated people who take pride in serving fellow Indians.</p>
-                            </div>
-
+                    <div className='bg-gradient-to-b  bg-amber-300 to-green-700  h-155 mt-14 flex flex-col justify-center px-3  md:max-h-140 md:flex md:flex-row md:justify-between  lg:max-h-140 lg:flex lg:flex-row xl:max-h-250  2xl:max-h-300'>
+                        <div className='h-140   sm:h-170 md:max-h-110 md:max-w-[60%]  2xl:max-h-400 xl:max-h-400'>
+                            <img src="https://blinkit.com/careers/sites/default/files/2023-05/ezgif.com-webp-to-png.png" alt="" className=' h-100 md:max-h-90 lg:max-h-100 sm:h-120 2xl:max-h-400 xl:max-h-400 ' />
+                            <h1 className='text-3xl font-extrabold text-white sm:text-3xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-4xl'>
+                                Earn upto ₹ 50,000 with Blinkut Delivery. JOIN NOW!
+                            </h1>
+                            <h2 className='  text-white text-xl'>
+                                JOINING BONUS of upto ₹ 4,000 | Upto ₹ 10 lacs medical insurance
+                            </h2>
                         </div>
+                        <div className=' md:block md:bg-none  md:max-w-[40%]  xl:max-h-300px lg:block'>
 
+
+                            <div className='w-[100%] h-96  bg-white rounded-2xl mt-30 hidden lg:block  lg:bg-white '>
+                                <div className=' flex-col justify-between m-6 h-80  md:hidden lg:block'>
+                                    <div>
+                                        <h1 className=' font-bold text-xl p-1 lg:text-2xl'>Become a Blinkut rider</h1>
+                                    </div>
+                                    <div>
+                                        <p className='p-1'>To deliver orders for Blinkit, please fill this form</p>
+                                    </div>
+                                    <div className='flex justify-center gap-3 max-w-full '>
+                                        <div>
+                                            <input type="text" placeholder='name*' className=' bg-gray-200 p-2 w-full  rounded-xs ' />
+                                        </div>
+                                        <div>
+                                            <input type="text" placeholder='phone*' className=' bg-gray-200 p-2 w-full  rounded-xs' />
+                                            <p className=' text-gray-800  text-xs'>10 character(s) remaining</p>
+
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <select className='w-[96%] p-2 bg-gray-200 m-2 text-gray-400'>
+                                            <option value="" selected="selected" className=' text-gra'>select the city</option>
+                                            <option value="Ahmedabad">Ahmedabad</option>
+                                            <option value="Bengaluru">Bengaluru</option>
+                                            <option value="Chandigarh">Chandigarh</option>
+                                            <option value="Chennai">Chennai</option>
+                                            <option value="Delhi">Delhi</option>
+                                            <option value="Faridabad">Faridabad</option>
+                                            <option value="Gurgaon">Gurgaon</option>
+                                            <option value="Hyderabad">Hyderabad</option>
+                                            <option value="Jaipur">Jaipur</option>
+                                            <option value="Jalandhar">Jalandhar</option>
+                                            <option value="Kanpur">Kanpur</option>
+                                            <option value="Kolkata">Kolkata</option>
+                                            <option value="Lucknow">Lucknow</option>
+                                            <option value="Ludhiana">Ludhiana</option>
+                                            <option value="Meerut">Meerut</option>
+                                            <option value="Mohali">Mohali</option>
+                                            <option value="Mumbai">Mumbai</option>
+                                            <option value="Panchkula">Panchkula</option>
+                                            <option value="Pune">Pune</option>
+                                            <option value="UP-NCR">UP-NCR</option>
+                                            <option value="Vadodara">Vadodara</option>
+                                            <option value="Zirakpur">Zirakpur</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <button className='bg-black px-12 py-3 text-white ml-2 rounded-xl' type='submit'>join to earn</button>
+                                    </div>
+                                    <div className=' w-[100%] flex justify-center' >
+                                        <img src="https://blinkit.com/careers/sites/default/files/2023-02/google_play.png" alt="" className='w-[50%]' />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div>
-                        <div className='flex justify-center gap-2.5 mt-10'>
-                            <div className='w-60 h-80  shadow-2xl rounded-2xl'>
-                                <div className=' flex justify-center'>
-                                    <img src="https://blinkit.com/careers/sites/default/files/2021-12/deliver-icon-earnings.png" alt="" className='w-28 m-5' />
+                        <DeliveryForm />
+                    </div>
+                    <div>
+                        <div className='  flex justify-center mt-5'>
+                            <div className='w-[100%] m-5 lg:w-[80%]'>
+                                <div>
+                                    <h2 className=' text-2xl py-2 sm:text-2xl lg:text-3xl '>Join India’s most loved quick commerce platform</h2>
                                 </div>
                                 <div>
-                                    <h2 className=' text-xl text-center m-4 font-extrabold'>Monthly earnings</h2>
-                                    <p className='text-center text-xl'>Earn upto ₹50,000 with incentives and other benefits</p>
+                                    <p>Become a delivery partner on your own schedule and get best in class pay, among other other benefits. We are looking for dedicated people who take pride in serving fellow Indians.</p>
                                 </div>
+
                             </div>
-                            <div className='w-60 h-80  shadow-2xl'>
-                                <div className=' flex justify-center'>
-                                    <img src="https://blinkit.com/careers/sites/default/files/2021-12/deliver-icon-two-weeks-payout.png" alt="" className='w-28 m-5' />
+
+                        </div>
+                        <div>
+                            <div className='flex flex-col lg:flex-row justify-center gap-2.5 m-10'>
+                                <div className='lg:w-60 h-80  shadow-[0_0_0_1px_rgba(0,0,0,0.1)] rounded-2xl'>
+                                    <div className=' flex justify-center'>
+                                        <img src="https://blinkit.com/careers/sites/default/files/2021-12/deliver-icon-earnings.png" alt="" className='w-28 m-5' />
+                                    </div>
+                                    <div>
+                                        <h2 className=' text-xl text-center m-4 font-extrabold'>Monthly earnings</h2>
+                                        <p className='text-center text-xl'>Earn upto ₹50,000 with incentives and other benefits</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <h2 className=' text-xl text-center m-4 font-extrabold'>Monthly earnings</h2>
-                                    <p className='text-center text-xl'>Earn upto ₹50,000 with incentives and other benefits</p>
+                                <div className=' h-80 lg:w-60 shadow-[0_0_0_1px_rgba(0,0,0,0.1)]'>
+                                    <div className=' flex justify-center'>
+                                        <img src="https://blinkit.com/careers/sites/default/files/2021-12/deliver-icon-two-weeks-payout.png" alt="" className='w-28 m-5' />
+                                    </div>
+                                    <div>
+                                        <h2 className=' text-xl text-center m-4 font-extrabold'>Monthly earnings</h2>
+                                        <p className='text-center text-xl'>Earn upto ₹50,000 with incentives and other benefits</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className='w-60 h-80  shadow-2xl'>
-                                <div className=' flex justify-center'>
-                                    <img src="https://blinkit.com/careers/sites/default/files/2021-12/deliver-icon-two-weeks-payout.png" alt="" className='w-28 m-5' />
+                                <div className=' h-80 lg:w-60 shadow-[0_0_0_1px_rgba(0,0,0,0.1)]'>
+                                    <div className=' flex justify-center'>
+                                        <img src="https://blinkit.com/careers/sites/default/files/2021-12/deliver-icon-two-weeks-payout.png" alt="" className='w-28 m-5' />
+                                    </div>
+                                    <div>
+                                        <h2 className=' text-xl text-center m-4 font-extrabold'>Monthly earnings</h2>
+                                        <p className='text-center text-xl'>Earn upto ₹50,000 with incentives and other benefits</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <h2 className=' text-xl text-center m-4 font-extrabold'>Monthly earnings</h2>
-                                    <p className='text-center text-xl'>Earn upto ₹50,000 with incentives and other benefits</p>
-                                </div>
-                            </div>
-                            <div className='w-60 h-80  shadow-2xl'>
-                                <div className=' flex justify-center'>
-                                    <img src="https://blinkit.com/careers/sites/default/files/2023-02/icon-two-weeks-payout.png" alt="" className='w-28 m-5' />
-                                </div>
-                                <div>
-                                    <h2 className=' text-xl text-center m-4 font-extrabold'>Monthly earnings</h2>
-                                    <p className='text-center text-xl'>Earn upto ₹50,000 with incentives and other benefits</p>
+                                <div className=' h-80 lg:w-60 shadow-[0_0_0_1px_rgba(0,0,0,0.1)]'>
+                                    <div className=' flex justify-center'>
+                                        <img src="https://blinkit.com/careers/sites/default/files/2023-02/icon-two-weeks-payout.png" alt="" className='w-28 m-5' />
+                                    </div>
+                                    <div>
+                                        <h2 className=' text-xl text-center m-4 font-extrabold'>Monthly earnings</h2>
+                                        <p className='text-center text-xl'>Earn upto ₹50,000 with incentives and other benefits</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div className="overflow-hidden w-3/4 m-auto  mt-10 px-4">
-                    <h2 className="font-extrabold text-2xl mb-6 ">Partner testimonials</h2>
+                    <div className="overflow-hidden m-auto  p-10  w-[80%]">
+                        <h2 className="font-extrabold text-2xl mb-6 ">Partner testimonials</h2>
 
-
-
-                    <button
+                        {/* <button
                         className="custom-prev"
                         onClick={() => swiperRef.current.swiper.slidePrev()}
-                    >
+                     >
                         ❮
-                    </button>
+                     </button>  */}
+                        <Slider {...settings}>
+                            {categoryImg.map((item, index) => (
+                                <div key={index} className="flex  justify-center  gap-4  bg-gray-600 ">
+                                    <div className='h-[300px] w-[100%] lg:flex-row flex flex-col justify-between items-center p-6'>
+                                        <div>
+                                            <p className=' text-white text-xs'>{item.text}</p>
 
+                                        </div>
+                                        <div>
+                                            <img
+                                                src={item.img}
+                                                alt=""
+                                                className=" rounded-full h-[100px] w-[100px]"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </Slider>
 
-
-
-                    <Slider {...settings}>
-                        {categoryImg.map((item, index) => (
-                            <div key={index} className="flex justify-center">
-                                <img
-                                    src={item.img}
-                                    alt=""
-                                    className=" rounded-lg"
-                                />
-                            </div>
-                        ))}
-                    </Slider>
-
-                    <button
+                        {/* <button
                         className="custom-next"
                         onClick={() => swiperRef.current.swiper.slideNext()}
-                    >
+                     >
                         ❯
-                    </button>
+                     </button>  */}
+                    </div>
                 </div>
-            </div>
 
-            <FAQ />
+                <FAQ />
+            </div>
         </>
     )
 

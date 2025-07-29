@@ -75,8 +75,8 @@ export default function FAQ() {
             <div className="flex justify-center">
 
 
-                <div className="p-4 w-[80%]">
-                    <h2 className=" font-extrabold text-3xl mb-6">Frequently asked questions</h2>
+                <div className="p-4 w-[90%]">
+                    <h2 className=" font-extrabold text-xl mb-6 lg:text-3xl">Frequently asked questions</h2>
                     {items.map((item, index) => (
                         <div key={index} className="mb-4">
                             <button className="font-bold mb-1 acordianTitle" onClick={() => handleToggle(index)}>

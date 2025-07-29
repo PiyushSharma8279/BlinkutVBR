@@ -5,6 +5,7 @@ import PartnersLayout from "./Layouts/PartnersLayout";
 
 import DeliveryHome from "./components/Home/Delivery/DeliveryHome";
 import PartnerHome from "./components/Home/Partner/PartnersHome";
+import Lead from "./components/Home/Lead/Lead";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/partner" element={<PartnerHome/>}/>
         
         </Route>
+        <Route path="/lead" element={<Lead/>}/>
       </Routes>
     </BrowserRouter>
 

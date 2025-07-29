@@ -1,4 +1,60 @@
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+
 function PartnerHome() {
+
+     const categoryImg = [
+        {
+            img: "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
+            text: "First Person Data"
+
+        },
+        {
+            img: "https://t4.ftcdn.net/jpg/03/83/25/83/240_F_383258331_D8imaEMl8Q3lf7EKU2Pi78Cn0R7KkW9o.jpg",
+            text: "Second Person Data"
+
+
+        },
+        {
+            img: "https://t4.ftcdn.net/jpg/01/51/99/39/240_F_151993994_mmAYzngmSbNRr6Fxma67Od3WHrSkfG5I.jpg",
+            text: "Third Person Data"
+
+
+        }
+    ]
+
+    const settings = {
+        arrows: true,
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1.7
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1.3
+                }
+            }
+
+        ]
+    };
+
     return (
         <>
             <div>
@@ -73,7 +129,45 @@ function PartnerHome() {
                             </div>
                         </div>
                     </div>
-                </div>
+                    </div>
+
+                     <div className="overflow-hidden m-auto  p-10  w-[80%]">
+                                            <h2 className="font-extrabold text-2xl mb-6 ">Partner testimonials</h2>
+                    
+                                            {/* <button
+                                            className="custom-prev"
+                                            onClick={() => swiperRef.current.swiper.slidePrev()}
+                                         >
+                                            ❮
+                                         </button>  */}
+                                            <Slider {...settings}>
+                                                {categoryImg.map((item, index) => (
+                                                    <div key={index} className="flex  justify-center  gap-4  bg-gray-600 ">
+                                                        <div className='h-[300px] w-[100%] lg:flex-row flex flex-col justify-between items-center p-6'>
+                                                            <div>
+                                                                <p className=' text-white text-xs'>{item.text}</p>
+                    
+                                                            </div>
+                                                            <div>
+                                                                <img
+                                                                    src={item.img}
+                                                                    alt=""
+                                                                    className=" rounded-full h-[100px] w-[100px]"
+                                                                />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                ))}
+                                            </Slider>
+                    
+                                            {/* <button
+                                            className="custom-next"
+                                            onClick={() => swiperRef.current.swiper.slideNext()}
+                                         >
+                                            ❯
+                                        </button>  */}
+                                        </div>
+                
 
             </div>
 

@@ -11,6 +11,8 @@ function SlideBar() {
     const [isOpen, setIsOpen] = useState(false);
     const items = [
         <>
+        <a href="" className='block lg:hidden'>Home</a></>,
+        <>
             <a href="/lead">Lead</a>
         </>,
         <>
@@ -72,7 +74,7 @@ function SlideBar() {
             <div>
                 <button className='mb-3'>
                     <div className='cursor-pointer open-panel-btn' onClick={togglePanel}>
-                        <span className='block w-5 h-0.5 bg-black  '></span>
+                        <span className='block w-5 h-0.5 bg-black'></span>
                         <span className='block w-5 h-0.5 bg-black mt-1 '></span>
                         <span className='block w-5 h-0.5 bg-black mt-1 '></span>
                     </div>
