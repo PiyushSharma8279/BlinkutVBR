@@ -156,10 +156,10 @@ function DeliveryHome() {
                         <DeliveryForm />
                     </div>
                     <div>
-                        <div className='  flex justify-center mt-5'>
+                        <div className='  flex justify-center mt-3'>
                             <div className='w-[100%] my-5 lg:w-[80%] xl:w-[80%]'>
-                                <h2 className=' text-2xl py-2 sm:text-2xl lg:text-3xl '>Join India’s most loved quick commerce platform</h2>
-                                <p>Become a delivery partner on your own schedule and get best in class pay, among other other benefits. We are looking for dedicated people who take pride in serving fellow Indians.</p>
+                                <h2 className=' text-2xl py-2 sm:text-[24px] lg:text-[28px] font-normal '>Join India’s most loved quick commerce platform</h2>
+                                <p className=' leading-[24px] font-okra text-[17px]'>Become a delivery partner on your own schedule and get best in class pay, among other other benefits. We are looking for dedicated people who take pride in serving fellow Indians.</p>
                             </div>
 
                         </div>
@@ -170,8 +170,8 @@ function DeliveryHome() {
                                         <img src="https://blinkit.com/careers/sites/default/files/2021-12/deliver-icon-earnings.png" alt="" className='w-28 m-5' />
                                     </div>
                                     <div>
-                                        <h2 className=' text-xl text-center m-4 font-extrabold'>Monthly earnings</h2>
-                                        <p className='text-center text-xl'>Earn upto ₹50,000 with incentives and other benefits</p>
+                                        <h2 className=' text-[18px] font-okra text-center m-4 font-bold'>Monthly earnings</h2>
+                                        <p className='text-center text-[18px] text-[#1F1F1F] font-Okra,Helvetica,sans-serif px-4'>Earn upto ₹50,000 with incentives and other benefits</p>
                                     </div>
                                 </div>
                                 <div className=' h-80 lg:w-60 shadow-[0_0_0_1px_rgba(0,0,0,0.1)] rounded-2xl'>
@@ -179,8 +179,8 @@ function DeliveryHome() {
                                         <img src="https://blinkit.com/careers/sites/default/files/2021-12/deliver-icon-two-weeks-payout.png" alt="" className='w-28 m-5' />
                                     </div>
                                     <div>
-                                        <h2 className=' text-xl text-center m-4 font-extrabold'>Monthly earnings</h2>
-                                        <p className='text-center text-xl'>Earn upto ₹50,000 with incentives and other benefits</p>
+                                        <h2 className=' text-[18px] font-okra text-center m-4 font-bold'>Monthly earnings</h2>
+                                        <p className='text-center text-[18px] text-[#1F1F1F] font-Okra,Helvetica,sans-serif px-4'>Earn upto ₹50,000 with incentives and other benefits</p>
                                     </div>
                                 </div>
                                 <div className=' h-80 lg:w-60 shadow-[0_0_0_1px_rgba(0,0,0,0.1)] rounded-2xl'>
@@ -188,8 +188,8 @@ function DeliveryHome() {
                                         <img src="https://blinkit.com/careers/sites/default/files/2021-12/deliver-icon-two-weeks-payout.png" alt="" className='w-28 m-5' />
                                     </div>
                                     <div>
-                                        <h2 className=' text-xl text-center m-4 font-extrabold'>Monthly earnings</h2>
-                                        <p className='text-center text-xl'>Earn upto ₹50,000 with incentives and other benefits</p>
+                                        <h2 className=' text-[18px] font-okra text-center m-4 font-bold'>Monthly earnings</h2>
+                                        <p className='text-center text-[18px] text-[#1F1F1F] font-Okra,Helvetica,sans-serif px-4'>Earn upto ₹50,000 with incentives and other benefits</p>
                                     </div>
                                 </div>
                                 <div className=' h-80 lg:w-60 shadow-[0_0_0_1px_rgba(0,0,0,0.1)] rounded-2xl'>
@@ -197,8 +197,8 @@ function DeliveryHome() {
                                         <img src="https://blinkit.com/careers/sites/default/files/2023-02/icon-two-weeks-payout.png" alt="" className='w-28 m-5' />
                                     </div>
                                     <div>
-                                        <h2 className=' text-xl text-center m-4 font-extrabold'>Monthly earnings</h2>
-                                        <p className='text-center text-xl'>Earn upto ₹50,000 with incentives and other benefits</p>
+                                        <h2 className=' text-[18px] font-okra text-center m-4 font-bold'>Monthly earnings</h2>
+                                        <p className='text-center text-[18px] text-[#1F1F1F] font-Okra,Helvetica,sans-serif px-4'>Earn upto ₹50,000 with incentives and other benefits</p>
                                     </div>
                                 </div>
                             </div>
@@ -209,10 +209,10 @@ function DeliveryHome() {
 
 
                         <div className="w-[80%]">
-                            <h2 className="font-extrabold text-2xl mb-6 ">Partner testimonials</h2>
+                            <h2 className="font-bold text-[28px] font-okra mb-6 ">Partner testimonials</h2>
 
                             {/* <button
-                        className="custom-prev"
+                        className="custom-prev" 
                         onClick={() => swiperRef.current.swiper.slidePrev()}
                      >
                         ❮

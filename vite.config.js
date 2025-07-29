@@ -7,4 +7,7 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()
   ],
+  fontFamily: {
+        okra: ['Okra', 'Helvetica', 'sans-serif'],
+      },
 })
