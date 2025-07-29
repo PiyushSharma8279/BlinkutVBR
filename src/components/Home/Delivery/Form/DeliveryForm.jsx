@@ -51,9 +51,10 @@ function DeliveryForm() {
                                         <option value="Zirakpur">Zirakpur</option>
                                     </select>
                                 </div>
-                                <div>
+                                <SubmitEvent  className='bg-black px-12 w-[100%] py-3 text-white  rounded-xl'>Join to Earn</SubmitEvent>
                                     {/* <button className='bg-black px-12 w-[100%] py-3 text-white  rounded-xl' type='submit'>join to earn</button> */}
-                                </div>
+                                    
+                                
                                 <div className=' w-[100%] flex justify-center' >
                                     <img src="https://blinkit.com/careers/sites/default/files/2023-02/google_play.png" alt="" className='w-[40%]' />
                                 </div>

@@ -149,13 +149,8 @@ function DeliveryHome() {
                     <div>
                         <div className='  flex justify-center mt-5'>
                             <div className='w-[100%] m-5 lg:w-[80%]'>
-                                <div>
-                                    <h2 className=' text-2xl py-2 sm:text-2xl lg:text-3xl '>Join India’s most loved quick commerce platform</h2>
-                                </div>
-                                <div>
-                                    <p>Become a delivery partner on your own schedule and get best in class pay, among other other benefits. We are looking for dedicated people who take pride in serving fellow Indians.</p>
-                                </div>
-
+                                <h2 className=' text-2xl py-2 sm:text-2xl lg:text-3xl '>Join India’s most loved quick commerce platform</h2>
+                                <p>Become a delivery partner on your own schedule and get best in class pay, among other other benefits. We are looking for dedicated people who take pride in serving fellow Indians.</p>
                             </div>
 
                         </div>
