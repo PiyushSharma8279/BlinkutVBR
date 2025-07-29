@@ -88,19 +88,27 @@ function DeliveryHome() {
                                     <div>
                                         <p className='p-1'>To deliver orders for Blinkit, please fill this form</p>
                                     </div>
-                                    <div className='flex justify-center gap-3 max-w-full '>
-                                        <div>
-                                            <input type="text" placeholder='name*' className=' bg-gray-200 p-2 w-full  rounded-xs ' />
+                                    <div className="flex gap-2 w-full">
+                                        <div className="w-1/2">
+                                            <input
+                                                type="text"
+                                                placeholder="name*"
+                                                className="w-full bg-gray-200 p-2 rounded-xs"
+                                            />
                                         </div>
-                                        <div>
-                                            <input type="text" placeholder='phone*' className=' bg-gray-200 p-2 w-full  rounded-xs' />
-                                            <p className=' text-gray-800  text-xs'>10 character(s) remaining</p>
-
+                                        <div className="w-1/2">
+                                            <input
+                                                type="text"
+                                                placeholder="phone*"
+                                                className="w-full bg-gray-200 p-2 rounded-xs"
+                                            />
+                                            <p className="text-gray-800 text-xs">10 character(s) remaining</p>
                                         </div>
                                     </div>
+
                                     <div>
-                                        <select className='w-[96%] p-2 bg-gray-200 m-2 text-gray-400'>
-                                            <option value="" selected="selected" className=' text-gra'>select the city</option>
+                                        <select className='w-[100%] p-2 bg-gray-200 my-2 text-gray-400'>
+                                            <option value="" selected="selected" className=' text-gray-400'>select the city</option>
                                             <option value="Ahmedabad">Ahmedabad</option>
                                             <option value="Bengaluru">Bengaluru</option>
                                             <option value="Chandigarh">Chandigarh</option>
