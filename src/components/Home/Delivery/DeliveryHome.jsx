@@ -60,17 +60,17 @@ function DeliveryHome() {
         ]
     };
 
-
-
+//#275c5e
+//#458d92
 
 
     return (
         <>
             <div>
                 <div>
-                    <div className='bg-gradient-to-b  bg-amber-300 to-green-700  h-155 mt-14 flex flex-col justify-center px-3  md:max-h-140 md:flex md:flex-row md:justify-between  lg:max-h-140 lg:flex lg:flex-row xl:max-h-250  2xl:max-h-300'>
+                    <div className='bg-gradient-to-b  bg-[#275c5e] to-[#458d92]  h-155 mt-14 flex flex-col justify-center px-3  md:max-h-140 md:flex md:flex-row md:justify-between  lg:max-h-140 lg:flex lg:flex-row xl:max-h-250  2xl:max-h-300'>
                         <div className='h-140   sm:h-170 md:max-h-110 md:max-w-[60%]  2xl:max-h-400 xl:max-h-400'>
-                            <img src="https://blinkit.com/careers/sites/default/files/2023-05/ezgif.com-webp-to-png.png" alt="" className=' h-100 md:max-h-90 lg:max-h-100 sm:h-120 2xl:max-h-400 xl:max-h-400 ' />
+                            <img src="https://blinkit.com/careers/sites/default/files/2023-05/ezgif.com-webp-to-png.png" alt="" className=' h-100  md:max-h-90 lg:max-h-100 sm:h-120 2xl:max-h-400 xl:max-h-400 ' />
                             <h1 className='text-3xl font-extrabold text-white sm:text-3xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-4xl'>
                                 Earn upto ₹ 50,000 with Blinkut Delivery. JOIN NOW!
                             </h1>

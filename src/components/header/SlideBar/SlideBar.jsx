@@ -74,9 +74,9 @@ function SlideBar() {
             <div>
                 <button className='mb-3'>
                     <div className='cursor-pointer open-panel-btn' onClick={togglePanel}>
-                        <span className='block w-5 h-0.5 bg-black'></span>
-                        <span className='block w-5 h-0.5 bg-black mt-1 '></span>
-                        <span className='block w-5 h-0.5 bg-black mt-1 '></span>
+                        <span className='block w-5 h-0.5 bg-white'></span>
+                        <span className='block w-5 h-0.5 bg-white mt-1 '></span>
+                        <span className='block w-5 h-0.5 bg-white mt-1 '></span>
                     </div>
                 </button>
                 <SidePanel isOpen={isOpen} onClose={togglePanel} items={items} />
