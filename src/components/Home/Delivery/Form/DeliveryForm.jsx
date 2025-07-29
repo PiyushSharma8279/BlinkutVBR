@@ -51,8 +51,8 @@ function DeliveryForm() {
                                         <option value="Zirakpur">Zirakpur</option>
                                     </select>
                                 </div>
-                                <SubmitEvent  className='bg-black px-12 w-[100%] py-3 text-white  rounded-xl'>Join to Earn</SubmitEvent>
-                                    {/* <button className='bg-black px-12 w-[100%] py-3 text-white  rounded-xl' type='submit'>join to earn</button> */}
+                                
+                                     {/* <button type='submit' className='bg-black px-12 w-[100%] py-3 text-white  rounded-xl' >join to earn</button>  */}
                                     
                                 
                                 <div className=' w-[100%] flex justify-center' >
