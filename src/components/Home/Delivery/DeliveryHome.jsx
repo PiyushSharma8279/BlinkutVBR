@@ -1,67 +1,48 @@
-import React from 'react';
-import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import { Navigation, Autoplay, Pagination } from "swiper/modules";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { useRef } from "react";
 import "./delivery.css"
 import FAQ from './FAQs/FAQ';
 import DeliveryForm from './Form/DeliveryForm';
 import { IoLogoGooglePlaystore } from "react-icons/io5"
+import alok from '../../../assets/alok.png'
+import shishir from '../../../assets/shishir.png'
+import rahul from '../../../assets/rahul.png'
+
 
 
 function DeliveryHome() {
+    const swiperInstanceRef = useRef(null);
 
     const categoryImg = [
         {
-            img: "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
-            text: "First Person Data"
+            img: alok,
+            text: "My Favorite Part of the day is Seeing our customers Smile while recieving their Orders from me",
+            name: "Alok"
 
         },
         {
-            img: "https://t4.ftcdn.net/jpg/03/83/25/83/240_F_383258331_D8imaEMl8Q3lf7EKU2Pi78Cn0R7KkW9o.jpg",
-            text: "Second Person Data"
+            img: shishir,
+            text: "My Favorite Part of the day is Seeing our customers Smile while recieving their Orders from me",
+            name: "Rahul"
 
 
         },
         {
-            img: "https://t4.ftcdn.net/jpg/01/51/99/39/240_F_151993994_mmAYzngmSbNRr6Fxma67Od3WHrSkfG5I.jpg",
-            text: "Third Person Data"
+            img: rahul,
+            text: "My Favorite Part of the day is Seeing our customers Smile while recieving their Orders from me",
+            name: "shishir"
 
 
         }
     ]
 
-    const settings = {
-        arrows: true,
-        dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    arrows: false,
-                    centerMode: true,
-                    centerPadding: '40px',
-                    slidesToShow: 1.7
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    arrows: false,
-                    centerMode: true,
-                    centerPadding: '40px',
-                    slidesToShow: 1.3
-                }
-            }
-
-        ]
-    };
-
-//#275c5e
-//#458d92
+    
+    //#275c5e
+    //#458d92
 
 
     return (
@@ -136,15 +117,15 @@ function DeliveryHome() {
                                         <button className='bg-black px-12 py-3 text-white ml-2 rounded-xl' type='submit'>join to earn</button>
                                     </div>
                                     <div className=' w-[100%] flex justify-center' >
-                                         <div className="flex flex-row googleBtn w-40  ">
-                                                                    <div className="flex flex-row blackBtn">
-                                                                        <IoLogoGooglePlaystore className="icons" />
-                                                                        <div className="flex flex-col txtCont">
-                                                                            <p className="t1">GET IT ON</p>
-                                                                            <p className="t2">Google Play</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
+                                        <div className="flex flex-row googleBtn w-40  ">
+                                            <div className="flex flex-row blackBtn">
+                                                <IoLogoGooglePlaystore className="icons" />
+                                                <div className="flex flex-col txtCont">
+                                                    <p className="t1">GET IT ON</p>
+                                                    <p className="t2">Google Play</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -202,45 +183,75 @@ function DeliveryHome() {
                             </div>
                         </div>
                     </div>
-                    <div className=' flex justify-center'>
+                    <div className="flex justify-center">
+                        <div className="w-[80%] relative">
+                            <h2 className="font-bold text-[28px] mb-6">Partner testimonials</h2>
 
+                            <Swiper
+                                loop={true}
+                                onSwiper={(swiper) => (swiperInstanceRef.current = swiper)}
+                                modules={[Navigation, Autoplay, Pagination]}
+                                grabCursor={true}
+                                spaceBetween={20}
+                                slidesPerView={2}
+                                breakpoints={{
+                                    0: {
+                                        slidesPerView: 2,
 
+                                    },
+                                    480: {
+                                        slidesPerView: 2,
 
-                        <div className="w-[80%]">
-                            <h2 className="font-bold text-[28px] font-okra mb-6 ">Partner testimonials</h2>
+                                    },
+                                    768: {
+                                        slidesPerView: 1,
 
-                            {/* <button
-                        className="custom-prev" 
-                        onClick={() => swiperRef.current.swiper.slidePrev()}
-                     >
-                        ❮
-                     </button>  */}
-                            <Slider {...settings}>
+                                    }
+                                }}
+                            >
                                 {categoryImg.map((item, index) => (
-                                    <div key={index} className="flex  justify-center  gap-4  bg-gray-600 ">
-                                        <div className='h-[200px] w-[100%] lg:flex-row flex flex-col justify-between items-center p-6'>
-                                            <div>
-                                                <p className=' text-white text-xs'>{item.text}</p>
+                                    <SwiperSlide key={index}>
+                                        <div className="flex justify-center bg-gray-600 rounded-md px-4">
+                                            <div className="flex flex-col lg:flex-row justify-between items-center p-6 w-full max-w-6xl gap-6">
 
-                                            </div>
-                                            <div>
-                                                <img
-                                                    src={item.img}
-                                                    alt=""
-                                                    className=" rounded-full h-[50px] w-[50px]"
-                                                />
+                                                {/* Text Section */}
+                                                <div className="lg:w-[60%] w-full text-center lg:text-left">
+                                                    <p className="text-white text-lg sm:text-xl md:text-2xl">
+                                                        {item.text}
+                                                    </p>
+                                                    <p className="font-medium text-xl sm:text-2xl md:text-3xl mt-6 text-white">
+                                                        {item.name}
+                                                    </p>
+                                                </div>
+
+                                                {/* Image Section */}
+                                                <div className="w-full lg:w-[40%] flex justify-center">
+                                                    <img
+                                                        src={item.img}
+                                                        alt="testimonial"
+                                                        className="h-[200px] sm:h-[250px] w-auto rounded-t-3xl object-contain"
+                                                    />
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                ))}
-                            </Slider>
 
-                            {/* <button
-                        className="custom-next"
-                        onClick={() => swiperRef.current.swiper.slideNext()}
-                     >
-                        ❯
-                     </button>  */}
+                                    </SwiperSlide>
+                                ))}
+                            </Swiper>
+                            <button
+                                className="absolute bottom-[120px] -left-[45px] z-10 bg-[#275c5e] hover:bg-[#458d92] text-white px-4 py-2 rounded-full"
+                                onClick={() => swiperInstanceRef.current?.slidePrev()}
+                            >
+                                ❮
+                            </button>
+
+
+                            <button
+                                className="absolute bottom-[120px] -right-[45px] z-10 bg-[#275c5e] hover:bg-[#458d92] text-white px-4 py-2 rounded-full"
+                                onClick={() => swiperInstanceRef.current?.slideNext()}
+                            >
+                                ❯
+                            </button>
                         </div>
                     </div>
                 </div>
