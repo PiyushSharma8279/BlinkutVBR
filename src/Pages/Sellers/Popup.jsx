@@ -7,7 +7,7 @@ function Popup({AfterSingup}) {
             <div className=' fixed  inset-0   flex flex-col justify-center items-center z-10 '> 
                 
                 <div className=' flex flex-col gap-10 text-black items-center bg-white rounded-xl pt-2 lg:w-[500px] sm:w-[400px] md:[500px] w-[300px] mt-10'>
-                    <button className='place-self-end cursor-pointer ' onClick={AfterSingup}><X size={30}/></button> 
+                    <button className='place-self-end cursor-pointer hover:bg-gray-300' onClick={AfterSingup}><X size={30}/></button> 
                     
                     <div className=' flex flex-col gap-7 mx-4'>
                         <h1 className='lg:text-5xl text-center font-bold text-3xl'>Seller hub</h1>
@@ -23,7 +23,7 @@ function Popup({AfterSingup}) {
                         </form>
 
                     </div>
-                    <p className='  w-full font-medium text-center bg-gray-200 py-2 rounded-b-xl text-[14px] md:text-[16px] lg:text-[18px] '>By continuing, I agree to <span className='text-green-400'>Terms & Conditions</span></p>
+                    <p className='  w-full font-medium text-center bg-gray-200 py-2 rounded-b-xl text-[14px] '>By continuing, I agree to <span className='text-green-400'>Terms & Conditions</span></p>
                 </div>
 
             </div>
