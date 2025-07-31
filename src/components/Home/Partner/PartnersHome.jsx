@@ -43,7 +43,7 @@ function PartnerHome() {
     return (
         <>
             <div>
-                <div className="w-full bg-gradient-to-b from-[#275c5e] to-[#458d92] mt-14">
+                <div className="w-full bg-gradient-to-b from-[#275c5e] to-[#458d92] mt-13">
                     <img
                         src="https://blinkit.com/careers/sites/default/files/2024-05/partner-masthead-desktop.png"
                         alt=""
