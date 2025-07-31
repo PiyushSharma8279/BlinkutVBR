@@ -25,14 +25,14 @@ function DeliveryHome() {
 
         },
         {
-            img: shishir,
+            img: rahul,
             text: "My Favorite Part of the day is Seeing our customers Smile while recieving their Orders from me",
             name: "Rahul"
 
 
         },
         {
-            img: rahul,
+            img: shishir,
             text: "My Favorite Part of the day is Seeing our customers Smile while recieving their Orders from me",
             name: "shishir"
 
@@ -61,7 +61,7 @@ function DeliveryHome() {
                         </div>
                         <form className=' md:block md:bg-none  md:max-w-[40%]  xl:max-h-300px lg:block'>
                             <div className='w-[100%] h-96  bg-white rounded-2xl mt-30  hidden lg:block  lg:bg-white '>
-                                <div className=' flex-col justify-betwee m-6 py-5   md:hidden lg:block'>
+                                <div className=' flex-col justify-between m-6 py-5   md:hidden lg:block'>
                                     <div>
                                         <h1 className=' font-bold text-xl p-1 lg:text-2xl'>Become a Blinkut rider</h1>
                                     </div>
@@ -81,6 +81,7 @@ function DeliveryHome() {
                                                 type="text"
                                                 placeholder="phone*"
                                                 className="w-full bg-gray-200 p-2 rounded-xs"
+                                                required pattern="[0-9]{10}"
                                             />
                                             <p className="text-gray-800 text-xs">10 character(s) remaining</p>
                                         </div>

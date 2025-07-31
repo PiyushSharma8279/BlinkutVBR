@@ -79,6 +79,7 @@ function WareHouse() {
                                             type="text"
                                             placeholder="phone number"
                                             className="w-full bg-gray-200 p-2 rounded-xs"
+                                            required pattern="[0-9]{10}"
                                         />
                                     </div>
 

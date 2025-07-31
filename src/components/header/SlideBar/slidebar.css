@@ -1,26 +1,6 @@
-body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      transition: all 0.3s ease;
-    }
-    .app {
-      position: relative;
-      min-height: 100vh;
-      background-color: #f8fafc;
-      overflow-x: hidden;
-    }
+
     .main-content {
       padding: 20px;
-    }
-    .open-panel-btn {
-      color: white;
-      border: none;
-      padding: 6px 2px;
-      border-radius: 8px;
-      font-size: 16px;
-      cursor: pointer;
-      font-weight: 500;
     }
     .side-panel {
       position: fixed;
