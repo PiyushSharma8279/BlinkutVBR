@@ -173,7 +173,7 @@ function PartnerHome() {
                             ))}
                         </Swiper>
                         <button
-                            className="absolute bottom-[120px] -left-[45px] z-10 bg-[#275c5e] hover:bg-[#458d92] text-white px-4 py-2 rounded-full"
+                            className="absolute bottom-[120px] -left-[45px] z-10 bg-[#275c5e] hover:bg-[#458d92] text-white px-4 py-2 rounded-full cursor-pointer"
                             onClick={() => swiperInstanceRef.current?.slidePrev()}
                         >
                             ❮
@@ -181,7 +181,7 @@ function PartnerHome() {
 
 
                         <button
-                            className="absolute bottom-[120px] -right-[45px] z-10 bg-[#275c5e] hover:bg-[#458d92] text-white px-4 py-2 rounded-full"
+                            className="absolute bottom-[120px] -right-[45px] z-10 bg-[#275c5e] hover:bg-[#458d92] text-white px-4 py-2 rounded-full cursor-pointer"
                             onClick={() => swiperInstanceRef.current?.slideNext()}
                         >
                             ❯

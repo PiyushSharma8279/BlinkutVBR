@@ -87,8 +87,8 @@ function Footer() {
                 </div>
                 <div className='innCont m-6'>
                     <h2 className=' font-bold'>Follow us</h2>
-                    <div className='follow-Cont'>
-                        <FaInstagram className='logos' />
+                    <div className='follow-Cont cursor-pointer '>
+                        <FaInstagram className='logos ' />
                         <FaTwitter className=' logos' />
                         <FaFacebook className=' logos' />
                         <FaLinkedin className='logos' />
@@ -101,16 +101,16 @@ function Footer() {
                     <div className=' flex lg:flex-row gap-6'>
 
 
-                        <div className="flex flex-row googleBtn w-40  ">
+                        <div className="flex flex-row googleBtn w-40 cursor-pointer ">
                             <div className="flex flex-row blackBtn">
                                 <IoLogoGooglePlaystore className="icons" />
                                 <div className="flex flex-col txtCont">
-                                    <p className="t1">GET IT ON</p>
-                                    <p className="t2">Google Play</p>
-                                </div>
+                                    <p className="t1 hover:no-underline">GET IT ON</p>
+                                    <p className="t2 hover:no-underline">Google Play</p>
+                                </div>  
                             </div>
                         </div>
-                        <div className="flex flex-row googleBtn appleBtn w-40">
+                        <div className="flex flex-row googleBtn appleBtn w-40 cursor-pointer">
                             <RiAppleFill className="icons" />
                             <div className="flex flex-col txtCont">
                                 <p className="t1">Download on the</p>

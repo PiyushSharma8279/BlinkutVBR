@@ -51,10 +51,10 @@ function DeliveryForm() {
                         </select>
                     </div>
 
-                    <button type='submit' className='bg-black px-12 w-[100%] py-3 text-white  rounded-xl' >join to earn</button>
+                    <button type='submit' className='bg-black px-12 w-[100%] py-3 text-white cursor-pointer rounded-xl' >join to earn</button>
 
                     <div className=' flex justify-center'>
-                        <div className="flex flex-row justify-center googleBtn w-40  ">
+                        <div className="flex flex-row justify-center googleBtn w-40 cursor-pointer ">
                             <div className="flex flex-row blackBtn">
                                 <IoLogoGooglePlaystore className="icons" />
                                 <div className="flex flex-col txtCont">

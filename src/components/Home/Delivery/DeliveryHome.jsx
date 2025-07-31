@@ -114,9 +114,9 @@ function DeliveryHome() {
                                         </select>
                                     </div>
                                     <div>
-                                        <button className='bg-black px-12 py-3 text-white ml-2 rounded-xl' type='submit'>join to earn</button>
+                                        <button className='bg-black px-12 py-3 text-white ml-2 rounded-xl cursor-pointer' type='submit'>join to earn</button>
                                     </div>
-                                    <div className=' w-[100%] flex justify-center' >
+                                    <div className=' w-[100%] flex justify-center cursor-pointer' >
                                         <div className="flex flex-row googleBtn w-40  ">
                                             <div className="flex flex-row blackBtn">
                                                 <IoLogoGooglePlaystore className="icons" />
@@ -214,7 +214,7 @@ function DeliveryHome() {
                                         <div className="flex justify-center bg-gray-600 rounded-md px-4">
                                             <div className="flex flex-col lg:flex-row justify-between items-center p-6 w-full max-w-6xl gap-6">
 
-                                                {/* Text Section */}
+                                
                                                 <div className="lg:w-[60%] w-full text-center lg:text-left">
                                                     <p className="text-white text-lg sm:text-xl md:text-2xl">
                                                         {item.text}
@@ -224,7 +224,7 @@ function DeliveryHome() {
                                                     </p>
                                                 </div>
 
-                                                {/* Image Section */}
+                                               
                                                 <div className="w-full lg:w-[40%] flex justify-center">
                                                     <img
                                                         src={item.img}
@@ -239,7 +239,7 @@ function DeliveryHome() {
                                 ))}
                             </Swiper>
                             <button
-                                className="absolute bottom-[120px] -left-[45px] z-10 bg-[#275c5e] hover:bg-[#458d92] text-white px-4 py-2 rounded-full"
+                                className="absolute bottom-[120px] -left-[45px] z-10 bg-[#275c5e] hover:bg-[#458d92] text-white px-4 py-2 rounded-full cursor-pointer"
                                 onClick={() => swiperInstanceRef.current?.slidePrev()}
                             >
                                 ❮
@@ -247,7 +247,7 @@ function DeliveryHome() {
 
 
                             <button
-                                className="absolute bottom-[120px] -right-[45px] z-10 bg-[#275c5e] hover:bg-[#458d92] text-white px-4 py-2 rounded-full"
+                                className="absolute bottom-[120px] -right-[45px] z-10 bg-[#275c5e] hover:bg-[#458d92] text-white px-4 py-2 rounded-full cursor-pointer"
                                 onClick={() => swiperInstanceRef.current?.slideNext()}
                             >
                                 ❯

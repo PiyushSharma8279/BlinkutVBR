@@ -73,9 +73,9 @@ export default function FAQ() {
                             >
                                 <button
                                     onClick={() => handleToggle(index)}
-                                    className="w-full flex justify-between items-center p-4 text-left bg-gray-50 "
+                                    className="w-full flex justify-between items-center p-4 text-left bg-gray-50 cursor-pointer"
                                 >
-                                    <span className="font-bold text-[#333] text-[20px] sm:text-base ">
+                                    <span className="font-bold text-[#333] text-[20px] sm:text-base  ">
                                         {item.title}
                                     </span>
                                     {openIndex === index ? (

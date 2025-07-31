@@ -12,19 +12,19 @@ function SlideBar() {
     const [isOpen, setIsOpen] = useState(false);
     const items = [
         <>
-        <a href="/home">Home</a>
+            <a href="/home">Home</a>
         </>,
-         <>
-        <a href="/about">About</a>
+        <>
+            <a href="/about">About</a>
         </>,
-         <>
-        <a href="/career">Career</a>
+        <>
+            <a href="/career">Career</a>
         </>,
-         <>
-        <Link to="/partner">Partner</Link>
+        <>
+            <Link to="/partner">Partner</Link>
         </>,
-         <>
-        <a href="/blog">Blog</a>
+        <>
+            <a href="/blog">Blog</a>
         </>,
         <>
             <a href="/lead">Lead</a>
@@ -57,7 +57,7 @@ function SlideBar() {
             <a href="/value">Franchise</a>
         </>,
         <>
-           <Link to="/seller">Seller</Link>
+            <Link to="/seller">Seller</Link>
         </>,
         <>
             <a href="/value">Warehouse</a>
@@ -72,7 +72,7 @@ function SlideBar() {
             <h2>
                 Follow us
             </h2>
-            <div className=' flex gap-3 mt-5'>
+            <div className=' flex gap-3 mt-5 cursor-pointer'>
                 <FaInstagram className='logos' />
                 <FaTwitter className=' logos' />
                 <FaFacebook className=' logos' />
