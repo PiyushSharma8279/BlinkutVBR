@@ -5,7 +5,7 @@ function DeliveryForm() {
         <>
           
                         <div className=' h-96  bg-white rounded-2xl lg:hidden xl:hidden  '>
-                            <div className=' flex-col justify-between m-6 h-80'>
+                            <form className=' flex-col justify-between m-6 h-80'>
                                 <div>
                                     <h1 className=' font-bold text-xl p-1 lg:text-2xl'>Become a Blinkut rider</h1>
                                 </div>
@@ -50,13 +50,13 @@ function DeliveryForm() {
                                     </select>
                                 </div>
                                 
-                                     {/* <button type='submit' className='bg-black px-12 w-[100%] py-3 text-white  rounded-xl' >join to earn</button>  */}
+                                      <button type='submit' className='bg-black px-12 w-[100%] py-3 text-white  rounded-xl' >join to earn</button> 
                                     
                                 
                                 <div className=' w-[100%] flex justify-center' >
                                     <img src="https://blinkit.com/careers/sites/default/files/2023-02/google_play.png" alt="" className='w-[40%]' />
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     
                 
