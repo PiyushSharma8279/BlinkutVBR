@@ -75,7 +75,7 @@ function Footer() {
                     </div>
 
                     <div>
-                        <a href="/warehouse">Warehouse</a>
+                        <Link href="/warehouse">Warehouse</Link>
                     </div>
                     <div>
                         <a href="/deliver">Deliver</a>
