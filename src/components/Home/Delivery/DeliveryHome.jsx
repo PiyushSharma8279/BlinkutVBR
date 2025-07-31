@@ -49,7 +49,7 @@ function DeliveryHome() {
         <>
             <div>
                 <div>
-                    <div className='bg-gradient-to-b  bg-[#275c5e] to-[#458d92]  h-155 mt-14 flex flex-col justify-center px-3  md:max-h-140 md:flex md:flex-row md:justify-between  lg:max-h-140 lg:flex lg:flex-row xl:max-h-250  2xl:max-h-300'>
+                    <div className='bg-gradient-to-b  bg-[#275c5e] to-[#458d92]  h-155 mt-14 flex flex-col justify-center px-3  md:max-h-140 md:flex md:flex-row md:justify-evenly lg:justify-evenly lg:max-h-140 lg:flex lg:flex-row xl:max-h-250  2xl:max-h-300'>
                         <div className='h-140   sm:h-170 md:max-h-110 md:max-w-[60%]  2xl:max-h-400 xl:max-h-400'>
                             <img src="https://blinkit.com/careers/sites/default/files/2023-05/ezgif.com-webp-to-png.png" alt="" className=' h-100  md:max-h-90 lg:max-h-100 sm:h-120 2xl:max-h-400 xl:max-h-400 ' />
                             <h1 className='text-3xl font-extrabold text-white sm:text-3xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-4xl'>
@@ -59,7 +59,7 @@ function DeliveryHome() {
                                 JOINING BONUS of upto ₹ 4,000 | Upto ₹ 10 lacs medical insurance
                             </h2>
                         </div>
-                        <div className=' md:block md:bg-none  md:max-w-[40%]  xl:max-h-300px lg:block'>
+                        <form className=' md:block md:bg-none  md:max-w-[40%]  xl:max-h-300px lg:block'>
                             <div className='w-[100%] h-96  bg-white rounded-2xl mt-30  hidden lg:block  lg:bg-white '>
                                 <div className=' flex-col justify-betwee m-6 py-5   md:hidden lg:block'>
                                     <div>
@@ -114,7 +114,7 @@ function DeliveryHome() {
                                         </select>
                                     </div>
                                     <div>
-                                        <button className='bg-black px-12 py-3 text-white ml-2 rounded-xl cursor-pointer' type='submit'>join to earn</button>
+                                        <button className='bg-black px-12 py-3 text-white  rounded-xl cursor-pointer' type='submit'>join to earn</button>
                                     </div>
                                     <div className=' w-[100%] flex justify-center cursor-pointer' >
                                         <div className="flex flex-row googleBtn w-40  ">
@@ -129,7 +129,7 @@ function DeliveryHome() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </form>
                     </div>
                     <div>
                         <DeliveryForm />
@@ -196,11 +196,11 @@ function DeliveryHome() {
                                 slidesPerView={2}
                                 breakpoints={{
                                     0: {
-                                        slidesPerView: 2,
+                                        slidesPerView: 1,
 
                                     },
                                     480: {
-                                        slidesPerView: 2,
+                                        slidesPerView: 1,
 
                                     },
                                     768: {

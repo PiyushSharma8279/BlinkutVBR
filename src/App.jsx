@@ -7,6 +7,7 @@ import DeliveryHome from "./components/Home/Delivery/DeliveryHome";
 import PartnerHome from "./components/Home/Partner/PartnersHome";
 import Lead from "./components/Home/Lead/Lead";
 import SellersHome from "./Pages/Sellers/SellersHome";
+import WareHouse from "./Pages/Warehouse/WareHouse";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         </Route>
         <Route path="/lead" element={<Lead/>}/>
         <Route path="/seller" element={<SellersHome/>}/>
+        <Route path="/warehouse" element={<WareHouse/>}/>
       </Routes>
     </BrowserRouter>
 

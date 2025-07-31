@@ -130,7 +130,7 @@ function PartnerHome() {
                             slidesPerView={2}
                             breakpoints={{
                                 0: {
-                                    slidesPerView: 2,
+                                    slidesPerView: 1,
 
                                 },
                                 480: {

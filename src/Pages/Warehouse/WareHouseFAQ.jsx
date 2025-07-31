@@ -1,37 +1,38 @@
 import { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
-export default function FAQ() {
+export default function WareHouseFAQ() {
     const [openIndex, setOpenIndex] = useState(null)
 
 
     const items = [
         {
-            title: "Who are VBR delivery partners?",
-            content: "They are independent contractors who partner with Blinkit to pick up grocery items ordered by consumers on the Blinkit app and deliver those items to the convenience of the consumers doorstep. They use their own 2-wheelers to make these deliveries and pick their own schedule",
-        },
-        {
-            title: "Are there any specific requirements to become a delivery partner?",
-            content: (
+            title: "Are there any specific requirements to become a VBR warehouse partner?",
+            content:(
                 <div className="text-sm sm:text-base">
                     <p>Yes, here’s a quick list:</p>
                     <ul className="list-disc ml-6 mt-2 space-y-1">
-                        <li>Be 18 years or older</li>
-                        <li>Own a two-wheeler</li>
-                        <li>Have an Android phone with internet</li>
-                        <li>Valid DL, RC, insurance & PAN card</li>
-                        <li>Proof of address and active bank account</li>
+                        <li>You must be at least 18 years old</li>
+                        <li>minimum education qualification – 10th pass certificate</li>
+                        <li>basic English reading/writing skills</li>
+                        <li>copy of Aadhaar card & PAN card </li>
+                        <li>valid bank account</li>
                     </ul>
                 </div>
+
+            )
+        },
+        {
+            title: "What are the benefits of working in a Blinkit warehouse?",
+            content: (
+                <p>In addition to earning upto ₹25000 per month, you also get one nutritious meal per shift, medical insurance coverage, plus Provident Fund in addition to the salary. We also offer 14 days paid leave for Covid</p>
             ),
         },
         {
-            title: "When will I start getting orders to deliver?",
+            title: "What is the duration of the work-shifts?",
             content: (
                 <div className="text-sm sm:text-base space-y-1">
-                    <p>It’s simple, follow these 2 steps:</p>
-                    <p>Step 1: Fill out the above form</p>
-                    <p>Step 2: Our team will contact you</p>
+                    We operate through two work shifts, day and night, each of which has a 9-hour work duration
                 </div>
             ),
         },
@@ -93,7 +94,7 @@ export default function FAQ() {
                             </div>
                         ))}
                     </div>
-                    <h2 className=" my-10">For more information, write to us at <span className=" font-bold">deliveryjob@vbr.com</span></h2>
+                    <h2 className=" my-10">For more information, write to us at <span className=" font-bold">warehousejob@vbr.com</span></h2>
                 </div>
             </div>
         </>
