@@ -70,7 +70,7 @@ function Footer() {
                         <a href="/about">Franchise</a>
                     </div>
                     <div>
-                        <a href="/careers">Seller</a>
+                        <a href="/seller">Seller</a>
                     </div>
 
                     <div>

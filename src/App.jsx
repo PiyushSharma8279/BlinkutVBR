@@ -6,6 +6,7 @@ import PartnersLayout from "./Layouts/PartnersLayout";
 import DeliveryHome from "./components/Home/Delivery/DeliveryHome";
 import PartnerHome from "./components/Home/Partner/PartnersHome";
 import Lead from "./components/Home/Lead/Lead";
+import SellersHome from "./Pages/Sellers/SellersHome";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         
         </Route>
         <Route path="/lead" element={<Lead/>}/>
+        <Route path="/seller" element={<SellersHome/>}/>
       </Routes>
     </BrowserRouter>
 

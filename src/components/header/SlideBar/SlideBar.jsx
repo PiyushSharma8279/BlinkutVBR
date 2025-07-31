@@ -23,7 +23,7 @@ function SlideBar() {
         <a href="/partner">Partner</a>
         </>,
          <>
-        <a href="">Blog</a>
+        <a href="/blog">Blog</a>
         </>,
         <>
             <a href="/lead">Lead</a>
@@ -56,7 +56,7 @@ function SlideBar() {
             <a href="/value">Franchise</a>
         </>,
         <>
-            <a href="/value">Seller</a>
+            <a href="/seller">Seller</a>
         </>,
         <>
             <a href="/value">Warehouse</a>

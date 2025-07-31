@@ -50,7 +50,7 @@ function PartnerHome() {
                         className="w-full object-cover"
                     />
                     <div className="flex justify-center px-4 text-center">
-                        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-bold max-w-5xl mt-6">
+                        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl lg:pb-5 text-white font-bold max-w-5xl mt-6">
                             Shape the future of instant commerce
                         </h2>
                     </div>
