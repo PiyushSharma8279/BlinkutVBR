@@ -6,7 +6,7 @@ function Popup({AfterSingup}) {
         <>
             <div className=' fixed  inset-0   flex flex-col justify-center items-center z-10 '> 
                 
-                <div className=' flex flex-col gap-10 text-black items-center bg-white rounded-xl pt-2 lg:w-[500px] sm:w-[400px] md:[500px] w-[300px]'>
+                <div className=' flex flex-col gap-10 text-black items-center bg-white rounded-xl pt-2 lg:w-[500px] sm:w-[400px] md:[500px] w-[300px] mt-10'>
                     <button className='place-self-end cursor-pointer ' onClick={AfterSingup}><X size={30}/></button> 
                     
                     <div className=' flex flex-col gap-7 mx-4'>
