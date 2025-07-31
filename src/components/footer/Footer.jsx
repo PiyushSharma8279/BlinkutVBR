@@ -7,6 +7,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import FooterText from './FooterText';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -70,7 +71,7 @@ function Footer() {
                         <a href="/about">Franchise</a>
                     </div>
                     <div>
-                        <a href="/seller">Seller</a>
+                        <Link to="/seller">Seller</Link>
                     </div>
 
                     <div>
@@ -80,7 +81,8 @@ function Footer() {
                         <a href="/deliver">Deliver</a>
                     </div>
                     <div>
-                        <a href="/partner">Partner</a>
+                        {/* <a href="/partner">Partner</a> */}
+                        <Link to="/partner">Partner</Link>
                     </div>
                 </div>
                 <div className='innCont m-6'>

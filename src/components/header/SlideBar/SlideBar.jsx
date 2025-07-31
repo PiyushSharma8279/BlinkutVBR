@@ -6,6 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 function SlideBar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +21,7 @@ function SlideBar() {
         <a href="/career">Career</a>
         </>,
          <>
-        <a href="/partner">Partner</a>
+        <Link to="/partner">Partner</Link>
         </>,
          <>
         <a href="/blog">Blog</a>
@@ -56,7 +57,7 @@ function SlideBar() {
             <a href="/value">Franchise</a>
         </>,
         <>
-            <a href="/seller">Seller</a>
+           <Link to="/seller">Seller</Link>
         </>,
         <>
             <a href="/value">Warehouse</a>
