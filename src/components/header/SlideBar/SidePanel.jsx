@@ -17,7 +17,6 @@ const SidePanel = ({ isOpen, onClose, items }) => {
   }, [isOpen, onClose]);
   return (
     <>
-      <div className={`backdrop ${isOpen ? 'active' : ''}`} onClick={onClose} />
       <div ref={panelRef} className={`side-panel ${isOpen ? 'open' : ''}`}>
         <div className="panel-header">
           <button className="close-btn cursor-pointer" onClick={onClose}><X/></button>
