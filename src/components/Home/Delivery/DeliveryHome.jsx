@@ -240,7 +240,7 @@ function DeliveryHome() {
                                 ))}
                             </Swiper>
                             <button
-                                className="absolute lg:bottom-[120px] bottom-[160px] -left-[45px] z-10 bg-[#275c5e] hover:bg-[#458d92] text-white px-4 py-2 rounded-full cursor-pointer"
+                                className="absolute lg:bottom-[120px] bottom-[160px] -left-[45px] z-10 bg-[#275c5e] hover:bg-[#458d92] text-white px-4 py-2 rounded-full cursor-pointer mx-2"
                                 onClick={() => swiperInstanceRef.current?.slidePrev()}
                             >
                                 ❮
@@ -248,7 +248,7 @@ function DeliveryHome() {
 
 
                             <button
-                                className="absolute bottom-[160px] lg:bottom-[120px] -right-[45px] z-10 bg-[#275c5e] hover:bg-[#458d92] text-white px-4 py-2 rounded-full cursor-pointer"
+                                className="absolute bottom-[160px] lg:bottom-[120px] -right-[45px] z-10 bg-[#275c5e] hover:bg-[#458d92] text-white px-4 py-2 rounded-full cursor-pointer mx-2"
                                 onClick={() => swiperInstanceRef.current?.slideNext()}
                             >
                                 ❯
