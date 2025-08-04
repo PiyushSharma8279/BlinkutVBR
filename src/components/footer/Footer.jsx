@@ -27,9 +27,9 @@ function Footer() {
                             <a href="/careers">Careers</a>
                         </div>
 
-                        <div>
-                            <a href="/blog">Blog</a>
-                        </div>
+                    
+                          <a href="/blog">Blog</a>
+                    
                         <div>
                             <a href="/press">Press</a>
                         </div>
@@ -51,14 +51,14 @@ function Footer() {
                             </div>
 
                             <div>
-                                <a href="/blog">FAQs</a>
+                                <a href="/faq">FAQs</a>
                             </div>
                             <div>
                                 <a href="/press">Security</a>
                             </div>
-                            <div>
-                                <a href="/lead">Mobile</a>
-                            </div>
+                            
+                            <a href="/lead">Mobile</a>
+                           
                             <div>
                                 <a href="/values">Contact</a>
                             </div>
@@ -77,13 +77,14 @@ function Footer() {
                     <div>
                         <a href="/warehouse">Warehouse</a>
                     </div>
-                    <div>
-                        <a href="/deliver">Deliver</a>
-                    </div>
-                    <div>
+                    
+                     <a href="" >Deliver</a>
+                    
+                    
                         {/* <a href="/partner">Partner</a> */}
-                        <a href="/partner">Partner</a>
-                    </div>
+                       
+                     <a href="/partner">Partner</a>
+                    
                 </div>
                 <div className='innCont m-6'>
                     <h2 className=' font-bold'>Follow us</h2>

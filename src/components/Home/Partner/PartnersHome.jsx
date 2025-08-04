@@ -8,6 +8,8 @@ import { useRef } from "react";
 import alok from '../../../assets/alok.png'
 import shishir from '../../../assets/shishir.png'
 import rahul from '../../../assets/rahul.png'
+import Header from "../../header/Header";
+import Footer from "../../footer/Footer";
 
 
 
@@ -42,6 +44,7 @@ function PartnerHome() {
 
     return (
         <>
+        <Header/>
             <div>
                 <div className="w-full bg-gradient-to-b from-[#275c5e] to-[#458d92] mt-13">
                     <img
@@ -189,7 +192,7 @@ function PartnerHome() {
                     </div>
                 </div>
             </div>
-
+      <Footer/>
         </>
     )
 }

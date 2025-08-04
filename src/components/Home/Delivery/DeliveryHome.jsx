@@ -11,6 +11,8 @@ import { IoLogoGooglePlaystore } from "react-icons/io5"
 import alok from '../../../assets/alok.png'
 import shishir from '../../../assets/shishir.png'
 import rahul from '../../../assets/rahul.png'
+import Header from "../../header/Header";
+import Footer from "../../footer/Footer";
 
 
 
@@ -46,7 +48,9 @@ function DeliveryHome() {
 
 
     return (
+
         <>
+        <Header/>
             <div>
                 <div>
                     <div className='bg-gradient-to-b  bg-[#275c5e] to-[#458d92]  h-155 mt-13 flex flex-col justify-center px-3  md:max-h-140 md:flex md:flex-row md:justify-evenly lg:justify-evenly lg:max-h-140 lg:flex lg:flex-row xl:max-h-250  2xl:max-h-300'>
@@ -259,6 +263,7 @@ function DeliveryHome() {
 
                 <FAQ />
             </div>
+            <Footer/>
         </>
     )
 
