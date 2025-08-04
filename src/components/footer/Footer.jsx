@@ -71,18 +71,18 @@ function Footer() {
                         <a href="/about">Franchise</a>
                     </div>
                     <div>
-                        <Link to="/seller">Seller</Link>
+                        <a href="/seller">Seller</a>
                     </div>
 
                     <div>
-                        <Link href="/warehouse">Warehouse</Link>
+                        <a href="/warehouse">Warehouse</a>
                     </div>
                     <div>
                         <a href="/deliver">Deliver</a>
                     </div>
                     <div>
                         {/* <a href="/partner">Partner</a> */}
-                        <Link to="/partner">Partner</Link>
+                        <a href="/partner">Partner</a>
                     </div>
                 </div>
                 <div className='innCont m-6'>
