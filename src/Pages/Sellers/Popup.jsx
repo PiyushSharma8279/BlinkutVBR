@@ -2,9 +2,10 @@ import React from 'react'
 import { X } from 'lucide-react';
 
 function Popup({AfterSingup}) {
+    console.log("Popup rendered");
     return (
         <>
-            <div className=' fixed  inset-0   flex flex-col justify-center items-center z-10 '> 
+            <div className='fixed inset-0 flex flex-col justify-center items-center z-50'> 
                 
                 <div className=' flex flex-col gap-10 text-black items-center bg-white rounded-xl pt-2 lg:w-[500px] sm:w-[400px] md:[500px] w-[300px] mt-10'>
                     <button className='place-self-end cursor-pointer hover:bg-gray-300' onClick={AfterSingup}><X size={30}/></button> 

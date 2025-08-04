@@ -31,7 +31,10 @@ function Header() {
                         </Link>
 
 
-                        <a href='/blog' className='cursor-pointer font-medium text-white  hidden lg:block'>Blog</a>
+                       <Link to="/blog"
+                            className='cursor-pointer font-medium text-white  hidden lg:block'>
+                            Blog
+                        </Link>
 
 
                         <div className=' mt-2'><SlideBar /></div>
