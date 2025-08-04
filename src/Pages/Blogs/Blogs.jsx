@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../../components/header/Header'
 import BlogImg from "../../assets/blog-masthead-desktop.png"
 import Everthing from './EverthingCategory/Everthing'
-import BlogImgMobile from "../../assets/blog-home-mobile.png"
+import BlogImgMobile from "../../assets/Blog-home-mobile.png"
 
 
 
