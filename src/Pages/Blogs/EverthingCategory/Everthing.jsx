@@ -182,7 +182,7 @@ function Everthing() {
             </div>
 
            
-            <div className="flex justify-center px-4 mt-4">
+            <div className="flex justify-center px-4 my-10">
                 <div className="w-full lg:w-[80%] max-w-[1200px] flex flex-wrap justify-center gap-8">
                     {filteredData.map((item, index) => (
                         <div key={index} className="w-full sm:w-[90%] md:w-[48%]">

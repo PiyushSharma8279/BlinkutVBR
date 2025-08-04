@@ -24,7 +24,7 @@ function SlideBar() {
             <Link to="/partner">Partner</Link>
         </>,
         <>
-            <a href="/blog">Blog</a>
+            <Link to="/blog">Blog</Link>
         </>,
         <>
             <a href="/lead">Lead</a>
