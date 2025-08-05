@@ -64,7 +64,7 @@ export default function WareHouseFAQ() {
         <>
             <div className="flex justify-center">
 
-                <div className="w-[80%] my-10">
+                <div className="w-[80%] my-10 max-w-[1200px]">
                     <h2 className=" font-extrabold text-xl mb-6 lg:text-3xl">Frequently asked questions</h2>
                     <div className="space-y-4">
                         {items.map((item, index) => (

@@ -5,7 +5,7 @@ function FooterText() {
         <>
             <div className=' bg-amber-50 p-3 mt-3'>
                 <div className='  flex justify-center align-middle bg-amber-50   '>
-                    <div className=' w-[80%] text-[14px]'>
+                    <div className=' w-[80%] text-[14px] max-w-[1200px]'>
                         <h2 className=' font-medium mb-4 mt-6'>#1 instant delivery service in India</h2>
                         <p>Shop on the go and get anything delivered in minutes. Buy
                             everything from groceries to fresh fruits & vegetables, cakes and

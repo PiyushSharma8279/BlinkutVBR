@@ -47,126 +47,132 @@ function WareHouse() {
         <>
             <Header />
             <div>
-                <div className='bg-gradient-to-b  bg-[#275c5e] to-[#458d92]  h-155 mt-13 flex flex-col justify-center px-3  md:max-h-140 md:flex md:flex-row md:justify-evenly  lg:max-h-140 lg:flex lg:flex-row lg:justify-evenly xl:max-h-250  2xl:max-h-300'>
-                    <div className='h-140   sm:h-170 md:max-h-110 md:max-w-[60%]  2xl:max-h-400 xl:max-h-400'>
-                        <img src="https://blinkit.com/careers/sites/default/files/2021-12/warehouse-desktop-masthead.png" alt="" className=' h-100  md:max-h-90 lg:max-h-100 sm:h-120 2xl:max-h-400 xl:max-h-400 ' />
-                        <h1 className='text-3xl font-extrabold text-white sm:text-3xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-4xl'>
-                            Warehouse partner
-                        </h1>
-                        <h2 className='  text-white text-xl'>
-                            Pick, pack and sort orders placed by our customers
-                        </h2>
-                    </div>
-                    <form className=' md:block md:bg-none  md:max-w-[40%]  xl:max-h-300px lg:block'>
-                        <div className='w-[100%] h-96  bg-white rounded-2xl mt-30  hidden lg:block  lg:bg-white '>
-                            <div className=' m-6 py-5 md:hidden lg:block'>
-                                <div>
-                                    <h1 className=' font-bold text-xl  lg:text-2xl'>Come bring orders to life</h1>
-                                </div>
-                                <div>
-                                    <p className='pb-3 pt-1'>Earn more with a job in our warehouse</p>
-                                </div>
-                                <div className="flex gap-2 w-full">
-                                    <div className="w-1/2">
-                                        <input
-                                            type="text"
-                                            placeholder="your full name"
-                                            className="w-full bg-gray-200 p-2 rounded-xs"
-                                        />
+                <div className='bg-gradient-to-b  bg-[#275c5e] to-[#458d92]  h-155 mt-13 flex justify-center '>
+
+
+                    <div className=' flex flex-col justify-center px-3  md:max-h-140 md:flex md:flex-row md:justify-evenly  lg:max-h-140 lg:flex lg:flex-row lg:justify-evenly xl:max-h-250  2xl:max-h-300 max-w-[1200px] w-full'>
+
+                        <div className='h-140   sm:h-170 md:max-h-110 md:max-w-[60%]  2xl:max-h-400 xl:max-h-400'>
+                            <img src="https://blinkit.com/careers/sites/default/files/2021-12/warehouse-desktop-masthead.png" alt="" className=' h-100  md:max-h-90 lg:max-h-100 sm:h-120 2xl:max-h-400 xl:max-h-400 ' />
+                            <h1 className='text-3xl font-extrabold text-white sm:text-3xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-4xl'>
+                                Warehouse partner
+                            </h1>
+                            <h2 className='  text-white text-xl'>
+                                Pick, pack and sort orders placed by our customers
+                            </h2>
+                        </div>
+                        <form className=' md:block md:bg-none  md:max-w-[40%]  xl:max-h-300px lg:block'>
+                            <div className='w-[100%] h-96  bg-white rounded-2xl mt-30  hidden lg:block  lg:bg-white '>
+                                <div className=' m-6 py-5 md:hidden lg:block'>
+                                    <div>
+                                        <h1 className=' font-bold text-xl  lg:text-2xl'>Come bring orders to life</h1>
                                     </div>
-                                    <div className="w-1/2">
-                                        <input
-                                            type="text"
-                                            placeholder="phone number"
-                                            className="w-full bg-gray-200 p-2 rounded-xs"
-                                            required pattern="[0-9]{10}"
-                                        />
+                                    <div>
+                                        <p className='pb-3 pt-1'>Earn more with a job in our warehouse</p>
+                                    </div>
+                                    <div className="flex gap-2 w-full">
+                                        <div className="w-1/2">
+                                            <input
+                                                type="text"
+                                                placeholder="your full name"
+                                                className="w-full bg-gray-200 p-2 rounded-xs"
+                                            />
+                                        </div>
+                                        <div className="w-1/2">
+                                            <input
+                                                type="text"
+                                                placeholder="phone number"
+                                                className="w-full bg-gray-200 p-2 rounded-xs"
+                                                required pattern="[0-9]{10}"
+                                            />
+                                        </div>
+
+                                    </div>
+                                    <div className="flex gap-2 w-full mt-4">
+                                        <div className="w-1/2">
+                                            <select className='w-[100%] p-2 bg-gray-200  text-gray-400 rounded-xs'>
+                                                <option value="" selected="selected" className=' text-gray-400'>city</option>
+                                                <option value="Ahmedabad">Ahmedabad</option>
+                                                <option value="Bengaluru">Bengaluru</option>
+                                                <option value="Chandigarh">Chandigarh</option>
+                                                <option value="Chennai">Chennai</option>
+                                                <option value="Delhi">Delhi</option>
+                                                <option value="Faridabad">Faridabad</option>
+                                                <option value="Gurgaon">Gurgaon</option>
+                                                <option value="Hyderabad">Hyderabad</option>
+                                                <option value="Jaipur">Jaipur</option>
+                                                <option value="Jalandhar">Jalandhar</option>
+                                                <option value="Kanpur">Kanpur</option>
+                                                <option value="Kolkata">Kolkata</option>
+                                                <option value="Lucknow">Lucknow</option>
+                                                <option value="Ludhiana">Ludhiana</option>
+                                                <option value="Meerut">Meerut</option>
+                                                <option value="Mohali">Mohali</option>
+                                                <option value="Mumbai">Mumbai</option>
+                                                <option value="Panchkula">Panchkula</option>
+                                                <option value="Pune">Pune</option>
+                                                <option value="UP-NCR">UP-NCR</option>
+                                                <option value="Vadodara">Vadodara</option>
+                                                <option value="Zirakpur">Zirakpur</option>
+                                            </select>
+                                        </div>
+                                        <div className="w-1/2">
+                                            <input
+                                                type="text"
+                                                placeholder="state*"
+                                                className="w-full bg-gray-200 p-2 rounded-xs"
+                                            />
+                                        </div>
+
                                     </div>
 
-                                </div>
-                                <div className="flex gap-2 w-full mt-4">
-                                    <div className="w-1/2">
-                                        <select className='w-[100%] p-2 bg-gray-200  text-gray-400 rounded-xs'>
-                                            <option value="" selected="selected" className=' text-gray-400'>city</option>
-                                            <option value="Ahmedabad">Ahmedabad</option>
-                                            <option value="Bengaluru">Bengaluru</option>
-                                            <option value="Chandigarh">Chandigarh</option>
-                                            <option value="Chennai">Chennai</option>
-                                            <option value="Delhi">Delhi</option>
-                                            <option value="Faridabad">Faridabad</option>
-                                            <option value="Gurgaon">Gurgaon</option>
-                                            <option value="Hyderabad">Hyderabad</option>
-                                            <option value="Jaipur">Jaipur</option>
-                                            <option value="Jalandhar">Jalandhar</option>
-                                            <option value="Kanpur">Kanpur</option>
-                                            <option value="Kolkata">Kolkata</option>
-                                            <option value="Lucknow">Lucknow</option>
-                                            <option value="Ludhiana">Ludhiana</option>
-                                            <option value="Meerut">Meerut</option>
-                                            <option value="Mohali">Mohali</option>
-                                            <option value="Mumbai">Mumbai</option>
-                                            <option value="Panchkula">Panchkula</option>
-                                            <option value="Pune">Pune</option>
-                                            <option value="UP-NCR">UP-NCR</option>
-                                            <option value="Vadodara">Vadodara</option>
-                                            <option value="Zirakpur">Zirakpur</option>
+                                    <div>
+                                        <select className='w-[100%] p-2 bg-gray-200 mt-4 text-gray-400 rounded-xs'>
+                                            <option value="">highest education*</option>
+                                            <option value="">10th</option>
+                                            <option value="">12th</option>
+                                            <option value="">Graduate</option>
+
                                         </select>
+
                                     </div>
-                                    <div className="w-1/2">
-                                        <input
-                                            type="text"
-                                            placeholder="state*"
-                                            className="w-full bg-gray-200 p-2 rounded-xs"
-                                        />
+                                    <div className="flex gap-2 w-full mt-4">
+                                        <button className='bg-black px-12 py-3 mt-2 text-white  rounded-xs cursor-pointer w-1/2' type='submit'>Register</button>
+                                        <div className="flex items-center gap-3 h-[50px] border rounded-xs px-4 shadow-md  bg-white mt-2 w-1/2">
+                                            <input
+                                                type="checkbox"
+                                                id="robot-check"
+                                                checked={checked}
+
+                                                className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-2 focus:ring-blue-500 cursor-pointer"
+                                            />
+                                            <label htmlFor="robot-check" className="text-gray-800 cursor-pointer select-none text-[12px]">
+                                                I'm not a robot
+                                            </label>
+
+                                            {checked && (
+                                                <ShieldCheck className="text-green-500" size={20} />
+                                            )}
+                                        </div>
+
                                     </div>
-
-                                </div>
-
-                                <div>
-                                    <select className='w-[100%] p-2 bg-gray-200 mt-4 text-gray-400 rounded-xs'>
-                                        <option value="">highest education*</option>
-                                        <option value="">10th</option>
-                                        <option value="">12th</option>
-                                        <option value="">Graduate</option>
-
-                                    </select>
-
-                                </div>
-                                <div className="flex gap-2 w-full mt-4">
-                                    <button className='bg-black px-12 py-3 mt-2 text-white  rounded-xs cursor-pointer w-1/2' type='submit'>Register</button>
-                                    <div className="flex items-center gap-3 h-[50px] border rounded-xs px-4 shadow-md  bg-white mt-2 w-1/2">
-                                        <input
-                                            type="checkbox"
-                                            id="robot-check"
-                                            checked={checked}
-
-                                            className="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-2 focus:ring-blue-500 cursor-pointer"
-                                        />
-                                        <label htmlFor="robot-check" className="text-gray-800 cursor-pointer select-none text-[12px]">
-                                            I'm not a robot
-                                        </label>
-
-                                        {checked && (
-                                            <ShieldCheck className="text-green-500" size={20} />
-                                        )}
-                                    </div>
-
                                 </div>
                             </div>
-                        </div>
-                    </form>
+                        </form>
+
+                    </div>
                 </div>
-                <WareHouseForm/>
+                <WareHouseForm />
                 <div>
-                    <div className='  flex justify-center mt-3 px-4'>
-                        <div className='w-[100%] my-10 lg:w-[80%] xl:w-[80%]'>
+                    <div className='  flex justify-center mt-3 px-4 '>
+                        <div className='w-[100%] max-w-[1200px] my-10 lg:w-[80%] xl:w-[80%]'>
                             <h2 className=' text-2xl py-2  lg:p-0 sm:text-[24px] lg:text-[28px] font-normal '>Join India’s most loved grocery shopping platform</h2>
                             <p className=' leading-[24px] mt-4 lg:p-0 font-okra text-[17px]'>Become a warehouse partner and get best in class pay, plus benefits like nutritious meals, transportation facility, provident fund – in addition to salary, medical insurance coverage and 14 days paid leaves for Covid</p>
                         </div>
 
                     </div>
                     <div className=' flex  justify-center  my-[30px]'>
-                        <div className=' flex lg:flex-row flex-col justify-center items-center lg:w-[80%] w-full mx-4'>
+                        <div className=' flex lg:flex-row flex-col justify-center items-center lg:w-[80%] w-full mx-4 max-w-[1200px]'>
                             <div className=' lg:w-1/2 w-full flex justify-center '>
                                 <img src="https://blinkit.com/careers/sites/default/files/2021-07/warehouse_0.png" alt="" className=' lg:h-[350px] h-[320px] w-full sm:max-w-full sm:h-[400px]' />
 
@@ -200,7 +206,7 @@ function WareHouse() {
 
 
                 <div className="flex justify-center my-[30px]">
-                    <div className="w-[80%] relative">
+                    <div className="w-[80%] relative max-w-[1200px]">
                         <h2 className="font-bold text-[28px] mb-6">Partner testimonials</h2>
 
                         <Swiper
@@ -275,9 +281,9 @@ function WareHouse() {
 
 
 
-            <div>
-                <WareHouseFAQ/>
-            </div>
+                <div>
+                    <WareHouseFAQ />
+                </div>
 
             </div>
 

@@ -46,7 +46,8 @@ function PartnerHome() {
         <>
         <Header/>
             <div>
-                <div className="w-full bg-gradient-to-b from-[#275c5e] to-[#458d92] mt-13">
+                <div className="w-full bg-gradient-to-b from-[#275c5e] to-[#458d92] mt-13 flex justify-center">
+                    <div className=" max-w-[1200px] w-full">
                     <img
                         src="https://blinkit.com/careers/sites/default/files/2024-05/partner-masthead-desktop.png"
                         alt=""
@@ -57,6 +58,7 @@ function PartnerHome() {
                             Shape the future of instant commerce
                         </h2>
                     </div>
+                </div>
                 </div>
 
                
@@ -121,7 +123,7 @@ function PartnerHome() {
 
 
                 <div className="flex justify-center">
-                    <div className="w-[80%] relative">
+                    <div className="w-[80%] relative max-w-[1200px]">
                         <h2 className="font-bold text-[28px] mb-6">Partner testimonials</h2>
 
                         <Swiper

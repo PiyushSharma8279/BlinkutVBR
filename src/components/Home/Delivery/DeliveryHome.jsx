@@ -53,7 +53,8 @@ function DeliveryHome() {
         <Header/>
             <div>
                 <div>
-                    <div className='bg-gradient-to-b  bg-[#275c5e] to-[#458d92]  h-155 mt-13 flex flex-col justify-center px-3  md:max-h-140 md:flex md:flex-row md:justify-evenly lg:justify-evenly lg:max-h-140 lg:flex lg:flex-row xl:max-h-250  2xl:max-h-300'>
+                    <div className="bg-gradient-to-b  bg-[#275c5e] to-[#458d92]  h-155 mt-13 flex justify-center"> 
+                    <div className=' max-w-[1200px] w-full flex flex-col justify-center px-3  md:max-h-140 md:flex md:flex-row md:justify-evenly lg:justify-evenly lg:max-h-140 lg:flex lg:flex-row xl:max-h-250  2xl:max-h-300'>
                         <div className='h-140   sm:h-170 md:max-h-110 md:max-w-[60%]  2xl:max-h-400 xl:max-h-400'>
                             <img src="https://blinkit.com/careers/sites/default/files/2023-05/ezgif.com-webp-to-png.png" alt="" className=' h-100  md:max-h-90 lg:max-h-100 sm:h-120 2xl:max-h-400 xl:max-h-400 ' />
                             <h1 className='text-3xl font-extrabold text-white sm:text-3xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-4xl'>
@@ -117,17 +118,17 @@ function DeliveryHome() {
                                             <option value="Vadodara">Vadodara</option>
                                             <option value="Zirakpur">Zirakpur</option>
                                         </select>
-                                    </div>
+                                    </div >
                                     <div>
                                         <button className='bg-black px-12 py-3 text-white  rounded-xl cursor-pointer' type='submit'>join to earn</button>
                                     </div>
-                                    <div className=' w-[100%] flex justify-center cursor-pointer' >
-                                        <div className="flex flex-row googleBtn w-40  ">
+                                    <div className='  flex justify-center cursor-pointer' >
+                                        <div className="flex flex-row googleBtn  max-w-[200px] w-full max-h-[50px]  ">
                                             <div className="flex flex-row blackBtn">
-                                                <IoLogoGooglePlaystore className="icons" />
-                                                <div className="flex flex-col txtCont">
-                                                    <p className="t1">GET IT ON</p>
-                                                    <p className="t2">Google Play</p>
+                                                <IoLogoGooglePlaystore className="icons max-h-[50px] max-w-[200px]" />
+                                                <div className="flex flex-col txtCont max-h-[50px]">
+                                                    <p className="t1 max-h-[20px] ">GET IT ON</p>
+                                                    <p className="t2 max-h-[20px]">Google Play</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -136,19 +137,20 @@ function DeliveryHome() {
                             </div>
                         </form>
                     </div>
+                    </div>
                     <div>
                         <DeliveryForm />
                     </div>
                     <div>
                         <div className='  flex justify-center mt-3'>
-                            <div className='w-[100%] my-5 lg:w-[80%] xl:w-[80%]'>
+                            <div className='w-[100%] my-5 lg:w-[80%] xl:w-[80%] max-w-[1200px] '>
                                 <h2 className=' text-2xl py-2 p-2 lg:p-0 sm:text-[24px] lg:text-[28px] font-normal '>Join India’s most loved quick commerce platform</h2>
                                 <p className=' leading-[24px] p-2 lg:p-0 font-okra text-[17px]'>Become a delivery partner on your own schedule and get best in class pay, among other other benefits. We are looking for dedicated people who take pride in serving fellow Indians.</p>
                             </div>
 
                         </div>
                         <div className='flex flex-col p-2 lg:p-0 lg:flex-row justify-center gap-2.5 my-10 '>
-                            <div className=' w-[100%] my-5 lg:w-[80%] xl:w-[80%] flex flex-col lg:flex-row gap-2.5'>
+                            <div className=' max-w-[1200px] w-full my-5 lg:w-[80%] xl:w-[80%] flex flex-col lg:flex-row gap-2.5'>
                                 <div className='lg:w-[25%] h-80  shadow-[0_0_0_1px_rgba(0,0,0,0.1)] rounded-2xl'>
                                     <div className=' flex justify-center'>
                                         <img src="https://blinkit.com/careers/sites/default/files/2021-12/deliver-icon-earnings.png" alt="" className='w-28 m-5' />
@@ -189,7 +191,7 @@ function DeliveryHome() {
                         </div>
                     </div>
                     <div className="flex justify-center">
-                        <div className="w-[80%] relative">
+                        <div className="w-[80%] relative max-w-[1200px]">
                             <h2 className="font-bold text-[28px] mb-6">Partner testimonials</h2>
 
                             <Swiper
