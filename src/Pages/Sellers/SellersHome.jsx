@@ -21,6 +21,29 @@ function SellersHome() {
         }
     }, [isSignup]);
 
+    const features = [
+        {
+            img: "https://cdn.grofers.com/da/seller-hub-assets/web-assets/homepage/noun-fast-img.webp",
+            title: "Reach Your customers in minutes",
+            description: "List your products on India's fastest-growing retail channel and grow with us",
+        },
+        {
+            img: "https://cdn.grofers.com/da/seller-hub-assets/web-assets/homepage/noun-fast-img.webp",
+            title: "Grow with a trusted partner",
+            description: "Join hands with a trusted platform to scale your business rapidly.",
+        },
+        {
+            img: "https://cdn.grofers.com/da/seller-hub-assets/web-assets/homepage/noun-fast-img.webp",
+            title: "Get insights & analytics",
+            description: "Use powerful tools to track performance and optimize your offerings.",
+        },
+        {
+            img: "https://cdn.grofers.com/da/seller-hub-assets/web-assets/homepage/noun-fast-img.webp",
+            title: "Support & guidance",
+            description: "Get dedicated support and training to help your business thrive.",
+        },
+    ];
+
     return (
         <>
             <SellersHeader />
@@ -66,49 +89,21 @@ function SellersHome() {
 
                             </div>
                         </div>
-                        <div className=' flex justify-center'>
+                        <div className=' flex justify-center py-4'>
 
 
-                            <div className=' flex flex-col gap-3 h-[400px] sm:h-[500px] md:h-[800px] lg:h-[850px] lg:grid lg:grid-cols-2 lg:gap-4 px-3 lg:w-[70%]'>
-                                <div className=' flex flex-row justify-evenly gap-4 h-[100px] w-[100%] bg-green-100 pt-2 px-1 md:h-[200px] lg:h-[400px] lg:flex-col pl-[40px] '>
-                                    <div className=' w-[30%]'>
-                                        <img src="https://cdn.grofers.com/da/seller-hub-assets/web-assets/homepage/noun-fast-img.webp" alt="" className=' md:h-[150px] sm:h-[80px] lg:h-[100px]' />
+                            <div className='flex flex-col gap-3 h-[400px] sm:h-[500px] md:h-[800px] lg:h-[850px] lg:grid lg:grid-cols-2 lg:gap-4 px-3 lg:w-[70%]'>
+                                {features.map((feature, index) => (
+                                    <div key={index} className='flex flex-row justify-evenly gap-4 h-[100px] w-[100%] bg-green-100 pt-2 px-1 md:h-[200px] lg:h-[400px] lg:flex-col pl-[40px]'>
+                                        <div className='w-[30%]'>
+                                            <img src={feature.img} alt="" className='md:h-[150px] sm:h-[80px] lg:h-[100px]' />
+                                        </div>
+                                        <div className='flex flex-col items-start md:justify-center md:w-[80%] lg:w-[90%]'>
+                                            <h2 className='font-medium md:text-[24px] lg:text-[32px]'>{feature.title}</h2>
+                                            <p className='text-[14px] py-1 md:text-[20px]'>{feature.description}</p>
+                                        </div>
                                     </div>
-                                    <div className='flex flex-col items-start md:justify-center md:w-[80%] lg:w-[90%] '>
-                                        <h2 className=' font-medium md:text-[24px] lg:text-[32px] '>Reach Your customers in minutes</h2>
-                                        <p className=' text-[14px] py-1 md:text-[20px] '>List your products on India's fastest-growing retail channel and grow with us</p>
-                                    </div>
-                                </div>
-                                <div className=' flex flex-row justify-evenly gap-4 lg:gap-1 h-[100px] w-[100%] bg-green-100 pt-2 px-1 md:h-[200px] lg:h-[400px] lg:flex-col pl-[40px]  '>
-                                    <div className=' w-[30%]'>
-                                        <img src="https://cdn.grofers.com/da/seller-hub-assets/web-assets/homepage/noun-fast-img.webp" alt="" className=' md:h-[150px] sm:h-[80px] lg:h-[100px]' />
-
-                                    </div>
-                                    <div className='flex flex-col items-start md:justify-center md:w-[80%] lg:w-[90%]  '>
-                                        <h2 className=' font-medium md:text-[24px] lg:text-[32px] '>Reach Your customers in minutes</h2>
-                                        <p className=' text-[14px] py-1 md:text-[20px] '>List your products on India's fastest-growing retail channel and grow with us</p>
-                                    </div>
-                                </div>
-                                <div className=' flex flex-row justify-evenly gap-4 h-[100px] w-[100%] bg-green-100 pt-2 px-1 md:h-[200px] lg:h-[400px] lg:flex-col pl-[40px] '>
-                                    <div className=' w-[30%]'>
-                                        <img src="https://cdn.grofers.com/da/seller-hub-assets/web-assets/homepage/noun-fast-img.webp" alt="" className=' md:h-[150px] sm:h-[80px] lg:h-[100px]' />
-
-                                    </div>
-                                    <div className='flex flex-col items-start md:justify-center md:w-[80%] lg:w-[90%]  '>
-                                        <h2 className=' font-medium md:text-[24px] lg:text-[32px]'>Reach Your customers in minutes</h2>
-                                        <p className=' text-[14px] py-1 md:text-[20px]'>List your products on India's fastest-growing retail channel and grow with us</p>
-                                    </div>
-                                </div>
-                                <div className=' flex flex-row justify-evenly gap-4 h-[100px] w-[100%] bg-green-100 pt-2 px-1 md:h-[200px] lg:h-[400px] lg:flex-col pl-[40px] '>
-                                    <div className=' w-[30%]'>
-                                        <img src="https://cdn.grofers.com/da/seller-hub-assets/web-assets/homepage/noun-fast-img.webp" alt="" className=' md:h-[150px] sm:h-[80px] lg:h-[100px]' />
-
-                                    </div>
-                                    <div className='flex flex-col items-start md:justify-center md:w-[80%] lg:w-[90%] '>
-                                        <h2 className=' font-medium md:text-[24px] lg:text-[32px] '>Reach Your customers in minutes</h2>
-                                        <p className=' text-[14px] py-1 md:text-[20px] '>List your products on India's fastest-growing retail channel and grow with us</p>
-                                    </div>
-                                </div>
+                                ))}
                             </div>
                         </div>
                     </div>

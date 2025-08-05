@@ -122,7 +122,7 @@ function PartnerHome() {
                 </div>
 
 
-                <div className="flex justify-center">
+                <div className="flex justify-center py-6">
                     <div className="w-[80%] relative max-w-[1200px]">
                         <h2 className="font-bold text-[28px] mb-6">Partner testimonials</h2>
 
