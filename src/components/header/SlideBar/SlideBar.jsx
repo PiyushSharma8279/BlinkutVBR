@@ -63,7 +63,7 @@ function SlideBar() {
              <a href="/warehouse">Warehouse</a>
         </>,
         <>
-            <a href="/value">Deliver</a>
+            <a href="/">Deliver</a>
         </>,
         <>
             <a href="/value">Resources</a>

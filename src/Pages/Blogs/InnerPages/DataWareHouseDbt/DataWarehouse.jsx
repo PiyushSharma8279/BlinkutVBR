@@ -4,9 +4,7 @@ import dataWarehouse from "../../../../assets/data warehouse journey dbt.webp";
 import { useParams } from 'react-router-dom';
 
 function DataWarehouse() {
-    const [scrollWidth, setScrollWidth] = useState(0);
-
-   
+    const [scrollWidth, setScrollWidth] = useState(0); 
 
     const data = [
         {
@@ -48,7 +46,7 @@ function DataWarehouse() {
     }, []);
 
    const { slug } = useParams();
- const slugify = (title) => {
+   const slugify = (title) => {
         return title
             .toLowerCase()
             .replace(/ /g, '-')
@@ -59,7 +57,7 @@ function DataWarehouse() {
     const item = data.find(p => slugify(p.title) === slug);
 
     return (
-        <>
+        <> <div className='bg-[#e9eef1]'>
             <div className="fixed  left-0 w-full h-[4px] bg-transparent z-50">
                 <div
                     className="h-full bg-green-500 transition-all duration-75"
@@ -133,6 +131,7 @@ function DataWarehouse() {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
 
             <Footer />

@@ -46,7 +46,7 @@ function WareHouse() {
     return (
         <>
             <Header />
-            <div>
+            <div className='bg-[#e9eef1]'>
                 <div className='bg-gradient-to-b  bg-[#275c5e] to-[#458d92]  h-155 mt-13 flex justify-center '>
 
 

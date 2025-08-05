@@ -45,7 +45,7 @@ function PartnerHome() {
     return (
         <>
         <Header/>
-            <div>
+            <div className="bg-[#e9eef1]">
                 <div className="w-full bg-gradient-to-b from-[#275c5e] to-[#458d92] mt-13 flex justify-center">
                     <div className=" max-w-[1200px] w-full">
                     <img

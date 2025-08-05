@@ -3,7 +3,7 @@ import React from 'react'
 function FooterText() {
     return (
         <>
-            <div className=' bg-amber-50 p-3 mt-3'>
+            <div className=' bg-amber-50 p-3'>
                 <div className='  flex justify-center align-middle bg-amber-50   '>
                     <div className=' w-[80%] text-[14px] max-w-[1200px]'>
                         <h2 className=' font-medium mb-4 mt-6'>#1 instant delivery service in India</h2>

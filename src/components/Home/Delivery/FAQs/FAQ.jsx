@@ -73,9 +73,9 @@ export default function FAQ() {
                             >
                                 <button
                                     onClick={() => handleToggle(index)}
-                                    className="w-full flex justify-between items-center p-4 text-left bg-gray-50 cursor-pointer"
+                                    className="w-full flex justify-between items-center p-4 text-left bg-[#e9eef1] cursor-pointer"
                                 >
-                                    <span className="font-bold text-[#333] text-[20px] sm:text-base  ">
+                                    <span className="font-bold text-[#333] text-[20px] sm:text-base   ">
                                         {item.title}
                                     </span>
                                     {openIndex === index ? (
@@ -86,7 +86,7 @@ export default function FAQ() {
                                 </button>
 
                                 {openIndex === index && (
-                                    <div className="px-4 pb-4 text-[#1F1F1F] text-[16px] sm:text-base">
+                                    <div className="px-4 pb-4 text-[#1F1F1F] text-[16px] sm:text-base ">
                                         {item.content}
                                     </div>
                                 )}

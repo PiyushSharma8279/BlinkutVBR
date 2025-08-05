@@ -51,7 +51,7 @@ function DeliveryHome() {
 
         <>
         <Header/>
-            <div>
+            <div className=" bg-[#e9eef1]">
                 <div>
                     <div className="bg-gradient-to-b  bg-[#275c5e] to-[#458d92]  h-155 mt-13 flex justify-center"> 
                     <div className=' max-w-[1200px] w-full flex flex-col justify-center px-3  md:max-h-140 md:flex md:flex-row md:justify-evenly lg:justify-evenly lg:max-h-140 lg:flex lg:flex-row xl:max-h-250  2xl:max-h-300'>

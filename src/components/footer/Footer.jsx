@@ -14,8 +14,6 @@ function Footer() {
         <>
             <FooterText />
             <div className=' bg-[#f5faf8] flex justify-center'>
-
-            
             <div className='flex flex-col justify-around content lg:flex-row w-[80%] max-w-[1200px] '>
                 <div className=' flex justify-between mx-8 lg:mx-0 lg:gap-10 '>
                     <div className='flex flex-col gap-2 innCont '>
@@ -78,10 +76,7 @@ function Footer() {
                         <a href="/warehouse">Warehouse</a>
                     </div>
                     
-                     <a href="" >Deliver</a>
-                    
-                    
-                        {/* <a href="/partner">Partner</a> */}
+                     <a href="/" >Deliver</a>
                        
                      <a href="/partner">Partner</a>
                     

@@ -24,7 +24,7 @@ function SellersHome() {
     return (
         <>
             <SellersHeader />
-            <div>
+            <div className='bg-[#e9eef1]'>
                 <div className='pt-[40px]  sm:min-h-[700px] bg-gradient-to-b  bg-[#275c5e] to-[#458d92] mt-[50px] justify-center flex '>
                     <div className='  w-[full] max-w-[1200px]   lg:flex lg:justify-center lg:h-[200px] text-white'>
                         <div className=' w-[full]  flex flex-col justify-center min-h-[300px] sm:min-h-[400px] lg:w-[30%] lg:h-[400px] lg:ml-[50px] lg:mt-[50px]    '>
