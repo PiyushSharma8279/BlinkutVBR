@@ -70,11 +70,11 @@ export default function WareHouseFAQ() {
                         {items.map((item, index) => (
                             <div
                                 key={index}
-                                className="border-y border-gray-100 rounded-xl overflow-hidden py-3  "
+                                className="border-y border-gray-100 rounded-xl overflow-hidden py-3 bg-[#e9eef1]   "
                             >
                                 <button
                                     onClick={() => handleToggle(index)}
-                                    className="w-full flex justify-between items-center p-4 text-left bg-gray-50 cursor-pointer"
+                                    className="w-full flex justify-between items-center p-4 text-left  cursor-pointer bg-[#e9eef1] "
                                 >
                                     <span className="font-bold text-[#333] text-[20px] sm:text-base  ">
                                         {item.title}
