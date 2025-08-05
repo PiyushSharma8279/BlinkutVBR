@@ -1,58 +1,56 @@
-.content {
-    
-    padding: 10px;
-    font-size: 18px;
-    background-color: #f5faf8;
-}
+.download-app{
+          width: 100%;
+          font-size: 1vw;
+          text-align: start;
+          color: white;
+          font-weight: 600;
+        }
 
-.txtCont {
-    align-items: flex-start;
-    font-size: 0.8vw;
-    color: white;
-
-    .t1 {
-        font-size: 0.8vw;
-    }
-
-    .t2 {
-        font-size: 14px;
-        font-weight: 500;
-    }
-}
-
-.icons {
-    font-size: 3vw;
-    color: #cdcfce;
-}
-
-.blackBtn {
-
-    width: 100%;
-    gap: 1vw;
-
-    p {
-        margin: 0;
-        padding: 0;
-    }
-}
-
-.googleBtn {
-    margin-top: 10px;
-    gap: 0.6vw;
-    padding: 0.2vw 0.5vw;
-    border-radius: 0.2vw;
-    background: black;
-
-
-}
-.appleBtn{
-    margin-top: 10px;
-    gap: 0.6vw;
-    padding: 0.2vw 0.5vw;
-    border-radius: 0.2vw;
-    background: black;
-
-}
+        .icons{
+              color:white;
+              font-size: 2.4vw;
+          }
+          .txtCont{
+            align-items: flex-start;
+              .t1{
+                  font-size: 0.7vw;
+              }
+              .t2{
+                  font-size: 1.1vw;
+                  font-weight: 600;
+              }
+            }
+          .googleBtn {
+              gap:0.6vw;
+              padding: 0.85vw 0.6vw;
+              border-radius: 0.3vw;
+              border:1px solid gray;
+            background: black;
+            color: white;
+          
+            
+          }
+          .appleBtn{
+            border:1px solid gray;
+              padding: 0.7vw 0.5vw;
+          }
+           .blackBtn {
+          gap:1vw;
+          .download{
+            font-size: 1vw;
+            font-weight: 600;
+          }
+          p{
+              margin:0;
+              padding: 0;
+          }
+          .play-btn{
+            width:2vw;
+            height: 3vw;
+          }
+        
+        
+        }
 .innCont{
     margin-top: 2vw;
 }

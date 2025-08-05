@@ -94,26 +94,26 @@ function Footer() {
                 </div>
                 <div className='innCont '>
                     <h2 className=' font-bold '>Download App</h2>
-                    <div className=' flex lg:flex-row gap-6'>
-                        <div className="flex flex-row googleBtn w-40 cursor-pointer ">
-                            <div className="flex flex-row googleBtn  max-w-[200px] w-full max-h-[50px]  ">
-                                            <div className="flex flex-row blackBtn">
-                                                <IoLogoGooglePlaystore className="icons max-h-[50px] max-w-[200px]" />
-                                                <div className="flex flex-col txtCont max-h-[50px]">
-                                                    <p className="t1 max-h-[20px] ">GET IT ON</p>
-                                                    <p className="t2 max-h-[20px]">Google Play</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                        </div>
-                        <div className="flex flex-row googleBtn appleBtn w-40 cursor-pointer">
-                            <RiAppleFill className="icons" />
-                            <div className="flex flex-col txtCont">
-                                <p className="t1">Download on the</p>
-                                <p className="t2">App Store</p>
-                            </div>
+                    <div className="flex flex-col items-center">
+                <h2 className="download-app">Download App:</h2>
+                <div className="flex flex-row justify-center blackBtn">
+                    <div className="flex flex-row justify-center googleBtn appleBtn">
+                        <RiAppleFill className="icons" />
+                        <div className="flex flex-col items-center txtCont">
+                            <p className="t1">Download on the</p>
+                            <p className="t2">App Store</p>
                         </div>
                     </div>
+                    <div className="flex flex-row justify-center googleBtn">
+                        <IoLogoGooglePlaystore className="play-btn" />
+                        <div className="flex flex-col items-center txtCont">
+                            <p className="t1">GET IT ON</p>
+                            <p className="t2">Google Play</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
                 </div>
             </div>
             </div>

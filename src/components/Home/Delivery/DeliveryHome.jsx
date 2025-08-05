@@ -122,16 +122,14 @@ function DeliveryHome() {
                                     <div>
                                         <button className='bg-black px-12 py-3 text-white  rounded-xl cursor-pointer' type='submit'>join to earn</button>
                                     </div>
-                                    <div className='  flex justify-center cursor-pointer' >
-                                        <div className="flex flex-row googleBtn  max-w-[200px] w-full max-h-[50px]  ">
-                                            <div className="flex flex-row blackBtn">
-                                                <IoLogoGooglePlaystore className="icons max-h-[50px] max-w-[200px]" />
-                                                <div className="flex flex-col txtCont max-h-[50px]">
-                                                    <p className="t1 max-h-[20px] ">GET IT ON</p>
-                                                    <p className="t2 max-h-[20px]">Google Play</p>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div className='  flex justify-center cursor-pointer mt-5' >
+                                        <div className="flex flex-row justify-center googleBtn">
+                                                                <IoLogoGooglePlaystore className="play-btn" size={30} />
+                                                                <div className="flex flex-col items-center txtCont">
+                                                                    <p className="t1">GET IT ON</p>
+                                                                    <p className="t2">Google Play</p>
+                                                                </div>
+                                                            </div>
                                     </div>
                                 </div>
                             </div>

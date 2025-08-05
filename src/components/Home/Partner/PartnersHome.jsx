@@ -10,6 +10,8 @@ import shishir from '../../../assets/shishir.png'
 import rahul from '../../../assets/rahul.png'
 import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
+import { RiAppleFill } from "react-icons/ri";
+import { IoLogoGooglePlaystore } from "react-icons/io5";
 
 
 
@@ -44,24 +46,24 @@ function PartnerHome() {
 
     return (
         <>
-        <Header/>
+            <Header />
             <div className="bg-[#e9eef1]">
                 <div className="w-full bg-gradient-to-b from-[#275c5e] to-[#458d92] mt-13 flex justify-center">
                     <div className=" max-w-[1200px] w-full">
-                    <img
-                        src="https://blinkit.com/careers/sites/default/files/2024-05/partner-masthead-desktop.png"
-                        alt=""
-                        className="w-full object-cover"
-                    />
-                    <div className="flex justify-center px-4 text-center">
-                        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl lg:pb-5 text-white font-bold max-w-5xl mt-6">
-                            Shape the future of instant commerce
-                        </h2>
+                        <img
+                            src="https://blinkit.com/careers/sites/default/files/2024-05/partner-masthead-desktop.png"
+                            alt=""
+                            className="w-full object-cover"
+                        />
+                        <div className="flex justify-center px-4 text-center">
+                            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl lg:pb-5 text-white font-bold max-w-5xl mt-6">
+                                Shape the future of instant commerce
+                            </h2>
+                        </div>
                     </div>
                 </div>
-                </div>
 
-               
+
                 <div className="flex justify-center px-4">
                     <div className="w-[80%] max-w-6xl my-10">
                         <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium mb-4">
@@ -73,7 +75,7 @@ function PartnerHome() {
                     </div>
                 </div>
 
-               
+
                 <div className="flex justify-center px-4">
                     <div className="w-[80%] max-w-6xl my-10">
                         <h2 className="text-2xl sm:text-3xl font-medium mb-6">Opportunities to grow with Blinkit</h2>
@@ -153,7 +155,7 @@ function PartnerHome() {
                                     <div className="flex justify-center bg-gray-600 rounded-md px-4">
                                         <div className="flex flex-col lg:flex-row justify-between items-center p-6 w-full max-w-6xl gap-6">
 
-                                           
+
                                             <div className="lg:w-[60%] w-full text-center lg:text-left">
                                                 <p className="text-white text-lg sm:text-xl md:text-2xl">
                                                     {item.text}
@@ -163,7 +165,7 @@ function PartnerHome() {
                                                 </p>
                                             </div>
 
-                                            
+
                                             <div className="w-full lg:w-[40%] flex justify-center">
                                                 <img
                                                     src={item.img}
@@ -194,7 +196,11 @@ function PartnerHome() {
                     </div>
                 </div>
             </div>
-      <Footer/>
+
+
+
+
+            <Footer />
         </>
     )
 }
