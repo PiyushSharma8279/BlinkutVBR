@@ -7,21 +7,29 @@ import Lead from "./components/Home/Lead/Lead";
 import SellersHome from "./Pages/Sellers/SellersHome";
 import WareHouse from "./Pages/Warehouse/WareHouse";
 import Blogs from "./Pages/Blogs/Blogs";
+import BlogsLayout from "./Pages/Blogs/BlogsLayout";
+import DataWarehouse from "./Pages/Blogs/InnerPages/DataWareHouseDbt/DataWarehouse";
 
 
 function App() {
   return (
   <BrowserRouter>
       <Routes>
-        {/* <Route path="/" element={<PartnersLayout/>}> */}
-        <Route path="/" element={<DeliveryHome/>}/>
-        <Route path="/partner" element={<PartnerHome/>}/>
+       
+         <Route path="" element={<BlogsLayout/>}>
+         <Route path="/" element={<DeliveryHome/>}/>
+         <Route path="/partner" element={<PartnerHome/>}/>
+         <Route path="/datawarehouse" element={<DataWarehouse/>} />
+         <Route path="/blog" element={<Blogs/>}/>
         
-        {/* </Route> */}
+        </Route>
+        
+        
+       
         <Route path="/lead" element={<Lead/>}/>
         <Route path="/seller" element={<SellersHome/>}/>
         <Route path="/warehouse" element={<WareHouse/>}/>
-        <Route path="/blog" element={<Blogs/>}  />
+      
       </Routes>
     </BrowserRouter>
 

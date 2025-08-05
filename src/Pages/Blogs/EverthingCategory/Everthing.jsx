@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Everthing() {
     const data = [
@@ -194,9 +195,9 @@ function Everthing() {
                                 />
                             </div>
                             <p className="text-sm py-4 text-[#666]">{item.info}</p>
-                            <h2 className="text-xl py-2 font-semibold text-[#1f1f1f] cursor-pointer">
+                            <Link to="/datawarehouse" className="text-xl py-2 font-semibold text-[#1f1f1f] cursor-pointer">
                                 {item.title}
-                            </h2>
+                            </Link>
                             <p className="text-base py-4 text-[#333]">{item.content}</p>
                         </div>
                     ))}

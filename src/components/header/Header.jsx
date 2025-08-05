@@ -1,5 +1,6 @@
 import React from 'react'
 import SlideBar from './SlideBar/SlideBar'
+import { Link } from 'react-router-dom'
 
 function Header() {
     return (
@@ -24,16 +25,16 @@ function Header() {
                         </a>
 
 
-                        <a href="/partner"
+                        <Link to="/partner"
                             className='cursor-pointer font-medium text-white  hidden lg:block'>
                             Partner
-                        </a>
+                        </Link>
 
 
-                       <a href="/blog"
+                       <Link to="/blog"
                             className='cursor-pointer font-medium text-white  hidden lg:block'>
                             Blog
-                        </a>
+                        </Link>
 
 
                         <div className=' mt-2'><SlideBar /></div>
