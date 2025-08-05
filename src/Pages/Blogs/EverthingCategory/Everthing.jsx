@@ -178,7 +178,7 @@ function Everthing() {
     };
 
     
-    const post = data.find(p => slugify(p.title) === slug);
+    const item = data.find(p => slugify(p.title) === slug);
 
     
 

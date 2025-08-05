@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import Footer from '../../../../components/footer/Footer';
 import dataWarehouse from "../../../../assets/data warehouse journey dbt.webp";
+import { useParams } from 'react-router-dom';
 
 function DataWarehouse() {
     const [scrollWidth, setScrollWidth] = useState(0);
 
    
 
-    const WarehouseData = [
+    const data = [
         {
             img: "https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2023-05/Frame%20228_0.png?itok=vIBlIjf3",
             info: "Team Blinkit | July 16, 2024 | 6 mins read",
@@ -45,6 +46,17 @@ function DataWarehouse() {
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
+
+   const { slug } = useParams();
+ const slugify = (title) => {
+        return title
+            .toLowerCase()
+            .replace(/ /g, '-')
+            .replace(/[^\w-]+/g, '');
+    };
+
+    
+    const item = data.find(p => slugify(p.title) === slug);
 
     return (
         <>
@@ -102,7 +114,7 @@ function DataWarehouse() {
                     <div className='text-2xl font-extrabold py-2 mt-4'>More for you to read</div>
                     <div className="flex justify-center px-4 my-10">
                         <div className="w-full flex flex-wrap justify-center gap-8">
-                            {WarehouseData.map((item, index) => (
+                            {data.map((item, index) => (
                                 <div key={index} className="w-full sm:w-[90%] md:w-[48%]">
                                     <div className="overflow-hidden relative w-full h-[300px] rounded-lg">
                                         <img
@@ -112,7 +124,7 @@ function DataWarehouse() {
                                         />
                                     </div>
                                     <p className="text-sm py-4 text-[#666]">{item.info}</p>
-                                    <a href="/datawarehouse" className="text-xl py-2 font-semibold text-[#1f1f1f] cursor-pointer">
+                                    <a href={`/blog/${slugify(item.title)}`} className="text-xl py-2 font-semibold text-[#1f1f1f] cursor-pointer">
                                         {item.title}
                                     </a>
                                     <p className="text-base py-4 text-[#333]">{item.content}</p>
