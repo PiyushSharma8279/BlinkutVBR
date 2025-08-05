@@ -25,16 +25,16 @@ function Header() {
                         </a>
 
 
-                        <Link to="/partner"
+                        <a href="/partner"
                             className='cursor-pointer font-medium text-white  hidden lg:block'>
                             Partner
-                        </Link>
+                        </a>
 
 
-                       <Link to="/blog"
+                       <a href="/blog"
                             className='cursor-pointer font-medium text-white  hidden lg:block'>
                             Blog
-                        </Link>
+                        </a>
 
 
                         <div className=' mt-2'><SlideBar /></div>

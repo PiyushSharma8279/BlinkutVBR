@@ -195,9 +195,9 @@ function Everthing() {
                                 />
                             </div>
                             <p className="text-sm py-4 text-[#666]">{item.info}</p>
-                            <Link to="/datawarehouse" className="text-xl py-2 font-semibold text-[#1f1f1f] cursor-pointer">
+                            <a href="/datawarehouse" className="text-xl py-2 font-semibold text-[#1f1f1f] cursor-pointer">
                                 {item.title}
-                            </Link>
+                            </a>
                             <p className="text-base py-4 text-[#333]">{item.content}</p>
                         </div>
                     ))}
