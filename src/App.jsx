@@ -9,7 +9,7 @@ import WareHouse from "./Pages/Warehouse/WareHouse";
 import Blogs from "./Pages/Blogs/Blogs";
 import BlogsLayout from "./Pages/Blogs/BlogsLayout";
 import DataWarehouse from "./Pages/Blogs/InnerPages/DataWareHouseDbt/DataWarehouse";
-import WwcCategory from "./Pages/Blogs/WwcCategory/WwcCategory";
+
 
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
         </Route>
         
         
-       <Route path="/wwc" element={<WwcCategory/>} />
+       
         <Route path="/lead" element={<Lead/>}/>
         <Route path="/seller" element={<SellersHome/>}/>
         <Route path="/warehouse" element={<WareHouse/>}/>
