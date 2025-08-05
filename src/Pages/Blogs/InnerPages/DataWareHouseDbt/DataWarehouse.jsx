@@ -82,6 +82,7 @@ function DataWarehouse() {
                         <h3 className='text-2xl font-extrabold py-2'>Next</h3>
                         <p>Legacy data pipeline build had quite a few daunting tasks in day-to-day work , which needed a solve for future scalability and quality outcomes</p>
                     </div>
+                    <div className='text-2xl font-extrabold py-2 mt-4'>More for you to read</div>
                    <div className="flex justify-center px-4 my-10">
                 <div className="w-full lg:w-[100%]  flex flex-wrap justify-center gap-8">
                     {WarehouseData.map((item, index) => (
