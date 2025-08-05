@@ -1,8 +1,12 @@
 import React from 'react'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+
 
 function Everthing() {
+   
+
     const data = [
         {
             img: "https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2024-07/data%20warehouse%20journey%20dbt.png?itok=3AlcU6Es",
@@ -165,6 +169,18 @@ function Everthing() {
     const resetFilter = () => {
         setFilteredData(data);
     };
+     const { slug } = useParams();
+ const slugify = (title) => {
+        return title
+            .toLowerCase()
+            .replace(/ /g, '-')
+            .replace(/[^\w-]+/g, '');
+    };
+
+    
+    const post = data.find(p => slugify(p.title) === slug);
+
+    
 
     return (
         <>
@@ -195,7 +211,7 @@ function Everthing() {
                                 />
                             </div>
                             <p className="text-sm py-4 text-[#666]">{item.info}</p>
-                            <a href="/datawarehouse" className="text-xl py-2 font-semibold text-[#1f1f1f] cursor-pointer">
+                            <a href={`/blog/${slugify(item.title)}`} className="text-xl py-2 font-semibold text-[#1f1f1f] cursor-pointer">
                                 {item.title}
                             </a>
                             <p className="text-base py-4 text-[#333]">{item.content}</p>

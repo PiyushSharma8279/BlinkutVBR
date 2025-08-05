@@ -16,7 +16,7 @@ function Header() {
                         <a href='/home' className='cursor-pointer font-medium text-white hidden lg:block'>Home</a>
 
 
-                        <a href='/about' className='cursor-pointer font-medium text-white  hidden lg:block'>About</a>
+                        <a href='/wwc' className='cursor-pointer font-medium text-white  hidden lg:block'>About</a>
 
 
                         <a className='cursor-pointer font-medium text-white  hidden lg:block' href='/careers'>
