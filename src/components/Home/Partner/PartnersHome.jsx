@@ -4,19 +4,23 @@ import { Navigation, Autoplay, Pagination } from "swiper/modules";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./partner.css";
-import { useRef } from "react";
+import { useState, useRef } from "react";
 import alok from '../../../assets/alok.png'
 import shishir from '../../../assets/shishir.png'
 import rahul from '../../../assets/rahul.png'
 import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
-import { RiAppleFill } from "react-icons/ri";
-import { IoLogoGooglePlaystore } from "react-icons/io5";
+import SuccesStories from "./SuccesStories";
+import bgImage from '../../../assets/Partners-bg.webp'
+import { CheckCircle, ShieldCheck } from "lucide-react";
+
 
 
 
 
 function PartnerHome() {
+    const [checked, setChecked] = useState(false);
+
     const swiperInstanceRef = useRef(null);
 
     const categoryImg = [
@@ -195,7 +199,68 @@ function PartnerHome() {
                         </button>
                     </div>
                 </div>
+                <div>
+                    <SuccesStories />
+                </div>
             </div>
+            <div className="w-full relative">
+                
+                <div
+                    className="hidden lg:block absolute inset-0 bg-cover bg-center bg-no-repeat"
+                    style={{ backgroundImage: `url(${bgImage})` }}
+                ></div>
+
+              
+                <div className="relative z-10 bg-white/80 lg:bg-transparent">
+                    <div className="flex flex-col lg:flex-row justify-center gap-10 w-full min-h-[460px] items-center px-4 py-8 max-w-[1200px]">
+
+                       
+                        <div className="w-full lg:w-[40%]">
+                            <h1 className="text-black text-[28px] lg:text-[40px] font-bold">
+                                Got a cool brand and want to list it on VBR?
+                            </h1>
+                            <p className="text-[16px] lg:text-[18px] py-4">
+                                Write to us at <span className="font-bold">sellwithus@vbr.com</span> — you can also drop us an email at <span className="font-bold">info@vbr.com</span> to know more about us.
+                            </p>
+                        </div>
+
+                        
+                        <div className="w-full lg:w-[38%]">
+                            <div className="bg-[#fcf7f7] rounded-xs p-6 shadow-md">
+                                <form className="flex flex-col gap-4">
+                                    <input type="text" placeholder="name*" className="bg-gray-200 p-2 rounded w-full" />
+                                    <input type="text" placeholder="phone number*" className="bg-gray-200 p-2 rounded w-full" />
+                                    <input type="text" placeholder="email id*" className="bg-gray-200 p-2 rounded w-full" />
+                                    <input type="text" placeholder="city*" className="bg-gray-200 p-2 rounded w-full" />
+                                    <input type="text" placeholder="state*" className="bg-gray-200 p-2 rounded w-full" />
+
+                                    <div className="flex flex-col sm:flex-row gap-4 mt-4">
+                                        <button className="bg-black px-6 py-3 text-white rounded w-full sm:w-1/2" type="submit">
+                                            Contact me
+                                        </button>
+
+                                        <div className="flex items-center gap-2 border rounded px-4 shadow-sm bg-white w-full sm:w-1/2 h-[50px]">
+                                            <input
+                                                type="checkbox"
+                                                id="robot-check"
+                                                checked={checked}
+                                                onChange={() => setChecked(!checked)}
+                                                className="w-5 h-5 cursor-pointer"
+                                            />
+                                            <label htmlFor="robot-check" className="text-sm text-gray-800 cursor-pointer">
+                                                I'm not a robot
+                                            </label>
+                                            {checked && <ShieldCheck className="text-green-500" size={20} />}
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
 
 
 

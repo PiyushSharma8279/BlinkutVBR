@@ -199,10 +199,10 @@ function Everthing() {
             </div>
 
            
-            <div className="flex justify-center px-4 my-10">
-                <div className="w-full lg:w-[80%] max-w-[1200px] flex flex-wrap justify-center gap-8">
+            <div   className="flex justify-center px-4 my-10">
+                <div  className="w-full lg:w-[80%] max-w-[1200px] flex flex-wrap justify-center gap-8">
                     {filteredData.map((item, index) => (
-                        <div key={index} className="w-full sm:w-[90%] md:w-[48%]">
+                        <a key={index} href={`/blog/${slugify(item.title)}`} className="w-full sm:w-[90%] md:w-[48%]">
                             <div className="overflow-hidden relative w-full h-[300px] rounded-lg">
                                 <img
                                     src={item.img}
@@ -211,11 +211,11 @@ function Everthing() {
                                 />
                             </div>
                             <p className="text-sm py-4 text-[#666]">{item.info}</p>
-                            <a href={`/blog/${slugify(item.title)}`} className="text-xl py-2 font-semibold text-[#1f1f1f] cursor-pointer">
+                            <div className="text-xl py-2 font-semibold text-[#1f1f1f] cursor-pointer">
                                 {item.title}
-                            </a>
+                            </div>
                             <p className="text-base py-4 text-[#333]">{item.content}</p>
-                        </div>
+                        </a>
                     ))}
                 </div>
             </div>
