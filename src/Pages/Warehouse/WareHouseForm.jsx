@@ -7,7 +7,7 @@ function WareHouseForm() {
     return (
         <>
 
-            <div className=' h-110  bg-white rounded-2xl lg:hidden xl:hidden  '>
+            <div className=' h-120  bg-white rounded-2xl lg:hidden xl:hidden  '>
                  <form className=' flex-col justify-between  h-80'>
                         <div className='w-[98%] h-96  bg-white rounded-2xl   lg:hidden lg:bg-white '>
                             <div className='px-3 py-5'>
