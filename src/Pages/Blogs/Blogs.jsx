@@ -21,7 +21,9 @@ function Blogs() {
                         </div>
                     </div>
                 </div>
+                <div className=' bg-[#e9eef1]'>
                 <Everthing/>
+                </div>
 
                 <div className=' text-center my-10'>
                     <p className=' text-[18px]'>You have reached the end of our appetite.</p>
