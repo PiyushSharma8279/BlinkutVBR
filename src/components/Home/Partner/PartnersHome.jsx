@@ -220,7 +220,7 @@ function PartnerHome() {
                                 Got a cool brand and want to list it on VBR?
                             </h1>
                             <p className="text-[16px] lg:text-[18px] py-4">
-                                Write to us at <span className="font-bold">sellwithus@vbr.com</span> — you can also drop us an email at <span className="font-bold">info@vbr.com</span> to know more about us.
+                                Write to us at <span className="font-bold cursor-pointer">sellwithus@vbr.com</span> — you can also drop us an email at <span className="font-bold cursor-pointer">info@vbr.com</span> to know more about us.
                             </p>
                         </div>
 
