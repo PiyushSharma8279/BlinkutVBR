@@ -6,9 +6,9 @@ import { Navigation, Autoplay, Pagination } from "swiper/modules";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./partner.css";
-import alok from '../../../assets/alok.png'
-import shishir from '../../../assets/shishir.png'
-import rahul from '../../../assets/rahul.png'
+import alok from '../../assets/alok.png'
+import shishir from '../../assets/shishir.png'
+import rahul from '../../assets/rahul.png'
 
 function SuccesStories() {
 

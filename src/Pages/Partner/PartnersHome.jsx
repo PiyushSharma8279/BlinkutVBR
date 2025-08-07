@@ -5,13 +5,13 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./partner.css";
 import { useState, useRef } from "react";
-import alok from '../../../assets/alok.png'
-import shishir from '../../../assets/shishir.png'
-import rahul from '../../../assets/rahul.png'
-import Header from "../../header/Header";
-import Footer from "../../footer/Footer";
+import alok from '../../assets/alok.png'
+import shishir from '../../assets/shishir.png'
+import rahul from '../../assets/rahul.png'
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
 import SuccesStories from "./SuccesStories";
-import bgImage from '../../../assets/Partners-bg.webp'
+import bgImage from '../../assets/Partners-bg.webp'
 import { CheckCircle, ShieldCheck } from "lucide-react";
 
 

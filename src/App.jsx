@@ -2,8 +2,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import PartnersLayout from "./Layouts/PartnersLayout";
 import DeliveryHome from "./components/Home/Delivery/DeliveryHome";
-import PartnerHome from "./components/Home/Partner/PartnersHome";
-import Lead from "./components/Home/Lead/Lead";
+import PartnerHome from "./Pages/Partner/PartnersHome";
+import Lead from "./Pages/Lead/Lead";
 import SellersHome from "./Pages/Sellers/SellersHome";
 import WareHouse from "./Pages/Warehouse/WareHouse";
 import Blogs from "./Pages/Blogs/Blogs";
