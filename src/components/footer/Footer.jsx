@@ -1,126 +1,94 @@
-import React from 'react'
-import "./Footer.css";
-import { IoLogoGooglePlaystore } from "react-icons/io5"
-import { RiAppleFill } from "react-icons/ri"
-import { FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import React from 'react';
+import { IoLogoGooglePlaystore } from 'react-icons/io5';
+import { RiAppleFill } from 'react-icons/ri';
+import { FaInstagram, FaTwitter, FaFacebook, FaLinkedin } from 'react-icons/fa';
 import FooterText from './FooterText';
 
-
 function Footer() {
-    return (
-        <>
-            <FooterText />
-            <div className=' bg-[#f5faf8] flex justify-center'>
-            <div className='flex flex-col justify-around content lg:flex-row w-[70%] max-w-[1200px] '>
-                <div className=' flex justify-between mx-8 lg:mx-0 lg:gap-10 '>
-                    <div className='flex flex-col gap-2 innCont '>
-                        <h2 className=' font-bold'>Company</h2>
-                        <div>
-                            <a href="/about">About</a>
-                        </div>
-                        <div>
-                            <a href="/careers">Careers</a>
-                        </div>
+  return (
+    <>
+      <FooterText />
 
-                    
-                          <a href="/blog">Blog</a>
-                    
-                        <div>
-                            <a href="/press">Press</a>
-                        </div>
-                        <div>
-                            <a href="/lead">Lead</a>
-                        </div>
-                        <div>
-                            <a href="/values">Values</a>
-                        </div>
-                    </div>
-                    <div>
-                        <div className='flex flex-col gap-2 innCont'>
-                            <h2 className=' font-bold'>For Consumers</h2>
-                            <div>
-                                <a href="/about">Privacy</a>
-                            </div>
-                            <div>
-                                <a href="/careers">Terms</a>
-                            </div>
+      {/* Footer Section */}
+      <div className="bg-[#f5faf8] flex justify-center py-10 px-4">
+        <div className="w-[80%] max-w-[1200px] flex flex-col lg:flex-row flex-wrap justify-between gap-y-10">
 
-                            <div>
-                                <a href="/faq">FAQs</a>
-                            </div>
-                            <div>
-                                <a href="/press">Security</a>
-                            </div>
-                            
-                            <a href="/lead">Mobile</a>
-                           
-                            <div>
-                                <a href="/values">Contact</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className='flex flex-col gap-2 innCont m-6'>
-                    <h2 className=' font-bold'>For Partners</h2>
-                    <div>
-                        <a href="/about">Franchise</a>
-                    </div>
-                    <div>
-                        <a href="/seller">Seller</a>
-                    </div>
+          {/* Column 1: Company */}
+          <div className="flex flex-col gap-2">
+            <h2 className="font-bold mb-1">Company</h2>
+            <a href="/about">About</a>
+            <a href="/careers">Careers</a>
+            <a href="/blog">Blog</a>
+            <a href="/press">Press</a>
+            <a href="/lead">Lead</a>
+            <a href="/values">Values</a>
+          </div>
 
-                    <div>
-                        <a href="/warehouse">Warehouse</a>
-                    </div>
-                    
-                     <a href="/" >Deliver</a>
-                       
-                     <a href="/partner">Partner</a>
-                    
-                </div>
-                <div className='innCont m-6'>
-                    <h2 className=' font-bold'>Follow us</h2>
-                    <div className='follow-Cont cursor-pointer '>
-                        <FaInstagram className='logos ' />
-                        <FaTwitter className=' logos' />
-                        <FaFacebook className=' logos' />
-                        <FaLinkedin className='logos' />
+          {/* Column 2: For Consumers */}
+          <div className="flex flex-col gap-2">
+            <h2 className="font-bold mb-1">For Consumers</h2>
+            <a href="/about">Privacy</a>
+            <a href="/careers">Terms</a>
+            <a href="/faq">FAQs</a>
+            <a href="/press">Security</a>
+            <a href="/lead">Mobile</a>
+            <a href="/values">Contact</a>
+          </div>
 
-                    </div>
+          {/* Column 3: For Partners */}
+          <div className="flex flex-col gap-2">
+            <h2 className="font-bold mb-1">For Partners</h2>
+            <a href="/about">Franchise</a>
+            <a href="/seller">Seller</a>
+            <a href="/warehouse">Warehouse</a>
+            <a href="/">Deliver</a>
+            <a href="/partner">Partner</a>
+          </div>
 
-                </div>
-                <div className='innCont '>
-                    <h2 className=' font-bold '>Download App</h2>
-                    <div className="flex flex-col items-center">
-                <h2 className="download-app">Download App:</h2>
-                <div className="flex flex-row justify-center blackBtn">
-                    <div className="flex flex-row justify-center googleBtn appleBtn">
-                        <RiAppleFill className="icons" />
-                        <div className="flex flex-col items-center txtCont">
-                            <p className="t1">Download on the</p>
-                            <p className="t2">App Store</p>
-                        </div>
-                    </div>
-                    <div className="flex flex-row justify-center googleBtn">
-                        <IoLogoGooglePlaystore className="play-btn" />
-                        <div className="flex flex-col items-center txtCont">
-                            <p className="t1">GET IT ON</p>
-                            <p className="t2">Google Play</p>
-                        </div>
-                    </div>
-
-                </div>
+          {/* Column 4: Follow Us */}
+          <div className="flex flex-col gap-2">
+            <h2 className="font-bold mb-1">Follow Us</h2>
+            <div className="flex gap-4 text-xl text-gray-700 cursor-pointer">
+              <FaInstagram />
+              <FaTwitter />
+              <FaFacebook />
+              <FaLinkedin />
             </div>
-                </div>
-            </div>
-            </div>
-            <h2 className=' text-center bg-gray-400'>Copyright by creativewebworld. All Rights Reserved.</h2>
+          </div>
 
-        </>
-    )
+          {/* Column 5: Download App */}
+          <div className="flex flex-col gap-3">
+            <h2 className="font-bold">Download App</h2>
+            <div className="flex flex-col sm:flex-row gap-4">
+
+              {/* Apple Store */}
+              <div className="flex items-center bg-black text-white px-4 py-2 rounded-lg w-fit cursor-pointer hover:opacity-90">
+                <RiAppleFill className="text-2xl" />
+                <div className="ml-3 text-left leading-tight">
+                  <p className="text-xs">Download on the</p>
+                  <p className="text-sm font-semibold">App Store</p>
+                </div>
+              </div>
+
+              {/* Google Play */}
+              <div className="flex items-center bg-black text-white px-4 py-2 rounded-lg w-fit cursor-pointer hover:opacity-90">
+                <IoLogoGooglePlaystore className="text-xl" />
+                <div className="ml-3 text-left leading-tight">
+                  <p className="text-xs">GET IT ON</p>
+                  <p className="text-sm font-semibold">Google Play</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Copyright */}
+      <div className="text-center bg-gray-400 text-white py-3 text-sm">
+        © Copyright by creativewebworld. All Rights Reserved.
+      </div>
+    </>
+  );
 }
 
-export default Footer
+export default Footer;

@@ -48,10 +48,10 @@ function SlideBar() {
             <a href="/value">FAQs</a>
         </>,
         <>
-            <a href="/value">Mobile</a>
+            <a href="/mobile">Mobile</a>
         </>,
         <>
-            <a href="/value">Contact</a>
+            <a href="/contact">Contact</a>
         </>,
         <>
             <a href="/value">Franchise</a>

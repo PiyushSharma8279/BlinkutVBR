@@ -10,6 +10,10 @@ import Blogs from "./Pages/Blogs/Blogs";
 import BlogsLayout from "./Pages/Blogs/BlogsLayout";
 import DataWarehouse from "./Pages/Blogs/InnerPages/DataWareHouseDbt/DataWarehouse";
 import Resources from "./Pages/Resources/Resources";
+import Contact from "./Pages/Contact/Contact";
+import Phone from "./Pages/Phone/Phone";
+import Security from "./Pages/Security/Security";
+import Value from "./Pages/Value/Value";
 
 
 
@@ -24,6 +28,14 @@ function App() {
          <Route path="/blog/:slug" element={<DataWarehouse/>} />
          <Route path="/blog" element={<Blogs/>}/>
          <Route path="/resources" element={<Resources/>}/>
+         <Route path="/contact" element={<Contact/>}/>
+         <Route path="/mobile" element={<Phone/>}/>
+         <Route path="/security" element={<Security/>}/>
+         <Route path="/value" element={<Value/>}/>
+
+
+
+
         
         </Route>
         

@@ -214,7 +214,9 @@ function PartnerHome() {
                         <div
                             className="hidden lg:block absolute inset-0 bg-cover bg-center bg-no-repeat"
                             style={{ backgroundImage: `url(${bgImage})` }}
-                        ></div>
+                        >
+                            
+                        </div>
 
 
                         <div className="relative z-10 bg-white/80 lg:bg-transparent">
