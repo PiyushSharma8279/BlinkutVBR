@@ -66,7 +66,7 @@ function SellersHome() {
 
                             </div>
                         </div>
-                        <div className=' h-[430px] sm:min-h-[600px] max-w-[full] flex justify-center lg:w-[70%] lg:h-[300px] '>
+                        <div className=' h-[430px] sm:min-h-[600px] max-w-[full] flex justify-center lg:w-[80%] lg:h-[300px] '>
                             <img src={sellerImage} alt="seller image" className=' h-[200px] w-[full] scale-390 sm:scale-500' />
                         </div>
                     </div>
@@ -92,7 +92,7 @@ function SellersHome() {
                         <div className=' flex justify-center py-4'>
 
 
-                            <div className='flex flex-col gap-3 h-[400px] sm:h-[500px] md:h-[800px] lg:h-[850px] lg:grid lg:grid-cols-2 lg:gap-4 px-3 lg:w-[70%]'>
+                            <div className='flex flex-col gap-3 h-[400px] sm:h-[500px] md:h-[800px] lg:h-[850px] lg:grid lg:grid-cols-2 lg:gap-4 px-3 lg:w-[80%]'>
                                 {features.map((feature, index) => (
                                     <div key={index} className='flex flex-row justify-evenly gap-4 h-[100px] w-[100%] bg-green-100 pt-2 px-1 md:h-[200px] lg:h-[400px] lg:flex-col pl-[40px]'>
                                         <div className='w-[30%]'>

@@ -50,7 +50,7 @@ function PartnerHome() {
 
     return (
         <>
-            <Header />
+          
             <div className="bg-[#e9eef1]">
                 <div className="w-full bg-gradient-to-b from-[#275c5e] to-[#458d92] mt-13 flex justify-center">
                     <div className=" max-w-[1200px] w-full">
@@ -69,7 +69,7 @@ function PartnerHome() {
 
 
                 <div className="flex justify-center px-4">
-                    <div className="w-[70%] max-w-6xl my-10">
+                    <div className="w-[80%] max-w-6xl my-10">
                         <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium mb-4">
                             Come build with us
                         </h2>
@@ -81,7 +81,7 @@ function PartnerHome() {
 
 
                 <div className="flex justify-center px-4">
-                    <div className="w-[70%] max-w-6xl my-10">
+                    <div className="w-[80%] max-w-6xl my-10">
                         <h2 className="text-2xl sm:text-3xl font-medium mb-6">Opportunities to grow with Blinkit</h2>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -129,7 +129,7 @@ function PartnerHome() {
 
 
                 <div className="flex justify-center py-6">
-                    <div className="w-[70%] relative max-w-[1200px]">
+                    <div className="w-[80%] relative max-w-[1200px]">
                         <h2 className="font-bold text-[28px] mb-6">Partner testimonials</h2>
 
                         <Swiper

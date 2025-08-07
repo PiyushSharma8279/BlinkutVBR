@@ -77,7 +77,7 @@ function DataWarehouse() {
                 </div>
             </div>
             <div className='flex justify-center mt-4'>
-                <div className='max-w-[1250px] w-[70%]'>
+                <div className='max-w-[1250px] w-[80%]'>
                     <p className='text-sm py-4 text-[#666]'>Team Blinkit | July 16, 2024 | 6 mins read</p>
                     <h1 className='text-3xl py-2 text-[#1f1f1f]'>Data Warehouse Journey With dbt</h1>
                     <div className='my-10'>

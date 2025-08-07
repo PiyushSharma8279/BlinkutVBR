@@ -9,7 +9,7 @@ import BlogImgMobile from "../../assets/Blog-home-mobile.png"
 function Blogs() {
     return (
         <>
-            <Header />
+          
             <div>
                 <div className='bg-gradient-to-b  bg-[#275c5e] to-[#458d92] mt-13 flex flex-col items-center w-full  '>
                     <div className='mt-[20px] h-[450px] '>

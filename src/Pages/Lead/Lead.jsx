@@ -8,7 +8,7 @@ function Lead() {
         <>
             <Header/>
             <div className=' flex justify-center align-middle lg:my-25 my-10 h-auto bg-#[e9eef1] '>
-                <div className=' lg:w-[70%] xl:w-[70%] w-[90%]'>
+                <div className=' lg:w-[80%]  w-[90%]'>
                     <h2 className='lg:text-5xl text-3xl lg:font-medium font-bold mt-10 mb-6'>
                         Leaders build organisations by building a Founder's mindset.
                     </h2>

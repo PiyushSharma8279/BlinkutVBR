@@ -9,6 +9,7 @@ import WareHouse from "./Pages/Warehouse/WareHouse";
 import Blogs from "./Pages/Blogs/Blogs";
 import BlogsLayout from "./Pages/Blogs/BlogsLayout";
 import DataWarehouse from "./Pages/Blogs/InnerPages/DataWareHouseDbt/DataWarehouse";
+import Resources from "./Pages/Resources/Resources";
 
 
 
@@ -22,6 +23,7 @@ function App() {
          <Route path="/partner" element={<PartnerHome/>}/>
          <Route path="/blog/:slug" element={<DataWarehouse/>} />
          <Route path="/blog" element={<Blogs/>}/>
+         <Route path="/resources" element={<Resources/>}/>
         
         </Route>
         
