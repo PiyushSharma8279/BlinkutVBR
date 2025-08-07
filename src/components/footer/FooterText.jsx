@@ -5,19 +5,19 @@ function FooterText() {
         <>
             <div className=' bg-amber-50 p-3'>
                 <div className='  flex justify-center align-middle bg-amber-50   '>
-                    <div className=' w-[80%] text-[14px] max-w-[1200px]'>
+                    <div className=' w-[80%] text-[14px] max-w-[1200px] my-6'>
                         <h2 className=' font-medium mb-4 mt-6'>#1 instant delivery service in India</h2>
                         <p>Shop on the go and get anything delivered in minutes. Buy
                             everything from groceries to fresh fruits & vegetables, cakes and
                             bakery items, to meats & seafood, cosmetics, mobiles & accessories,
                             electronics, baby care products and much more. We get it delivered at your
                             doorstep in the fastest and the safest way possible.</p>
-                        <h2 className=' font-medium mb-4 mt-6'>single app for all your daily needs</h2>
+                        <h2 className=' font-medium mb-4 mt-8'>single app for all your daily needs</h2>
                         <p>Order thousands of products at just a tap - milk, eggs, bread, cooking oil, ghee,
                             atta, rice, fresh fruits & vegetables, spices, chocolates, chips, biscuits, noodles,
                             cold drinks, shampoos, soaps, body wash, pet food, diapers, electronics, other organic
                             and gourmet products from your neighbourhood stores and a lot more.</p>
-                        <h2 className=' font-medium mb-4 mt-6'>order online on Blinkit to enjoy instant delivery magic</h2>
+                        <h2 className=' font-medium mb-4 mt-8'>order online on Blinkit to enjoy instant delivery magic</h2>
                         <p>Cities we currently serve: Agra, Ahmedabad, Ajmer, Akola, Aligarh, Alwar, Amravati,
                             Amritsar, Anand, Ankleshwar, Asansol, Aurangabad (now Chhatrapati Sambhajinagar),
                             Ayodhya, Bahadurgarh, Ballari, Bardhaman, Bareilly, Bathinda, Begusarai, Belagavi,
