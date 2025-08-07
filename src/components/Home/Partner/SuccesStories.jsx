@@ -48,7 +48,7 @@ function SuccesStories() {
     return (
         <>
         <div className="flex justify-center py-6">
-                    <div className="w-[80%] relative max-w-[1200px]">
+                    <div className="w-[70%] relative max-w-[1200px]">
                         <h2 className="font-medium text-[28px] mb-6">Success Stories</h2>
 
                         <Swiper

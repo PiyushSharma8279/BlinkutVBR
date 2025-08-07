@@ -75,12 +75,12 @@ function SellersHome() {
                 <div className='  px-[10px] flex justify-center'>
                     <div className='w-full max-w-[1200px] '>
 
-                        <div className='flex justify-evenly items-center min-h-[300px]  '>
+                        <div className='flex justify-between items-center min-h-[300px]  '>
                             <div className=' hidden  lg:block'>
                                 <img src="https://cdn.grofers.com/da/seller-hub-assets/web-assets/homepage/top-choice-left-img.png" alt="" />
 
                             </div>
-                            <div className='flex flex-col justify-center font-medium lg:font-bold'>
+                            <div className='flex flex-col justify-center font-medium lg:font-bold w-full'>
                                 <h2 className='text-[32px] lg:text-[45px] text-center'>Why VBR is every</h2>
                                 <h2 className='text-[32px] lg:text-[45px] text-center'>seller's top choice</h2>
                             </div>

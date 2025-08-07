@@ -141,14 +141,14 @@ function DeliveryHome() {
                     </div>
                     <div>
                         <div className='  flex justify-center mt-3'>
-                            <div className='w-[100%] my-5 lg:w-[80%] xl:w-[80%] max-w-[1200px] '>
+                            <div className='w-[100%] my-5 lg:w-[70%] max-w-[1200px] '>
                                 <h2 className=' text-2xl py-2 p-2 lg:p-0 sm:text-[24px] lg:text-[28px] font-normal '>Join India’s most loved quick commerce platform</h2>
                                 <p className=' leading-[24px] p-2 lg:p-0 font-okra text-[17px]'>Become a delivery partner on your own schedule and get best in class pay, among other other benefits. We are looking for dedicated people who take pride in serving fellow Indians.</p>
                             </div>
 
                         </div>
                         <div className='flex flex-col p-2 lg:p-0 lg:flex-row justify-center gap-2.5 my-10 '>
-                            <div className=' max-w-[1200px] w-full my-5 lg:w-[80%] xl:w-[80%] flex flex-col lg:flex-row gap-2.5'>
+                            <div className=' max-w-[1200px] w-full my-5 lg:w-[70%]  flex flex-col lg:flex-row gap-2.5'>
                                 <div className='lg:w-[25%] h-80  shadow-[0_0_0_1px_rgba(0,0,0,0.1)] rounded-2xl'>
                                     <div className=' flex justify-center'>
                                         <img src="https://blinkit.com/careers/sites/default/files/2021-12/deliver-icon-earnings.png" alt="" className='w-28 m-5' />
@@ -189,7 +189,7 @@ function DeliveryHome() {
                         </div>
                     </div>
                     <div className="flex justify-center">
-                        <div className="w-[80%] relative max-w-[1200px]">
+                        <div className="w-[70%] relative max-w-[1200px]">
                             <h2 className="font-bold text-[28px] mb-6">Partner testimonials</h2>
 
                             <Swiper

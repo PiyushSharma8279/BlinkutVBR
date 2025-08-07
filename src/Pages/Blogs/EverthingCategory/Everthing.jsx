@@ -186,7 +186,7 @@ function Everthing() {
         <>
             
             <div className="flex justify-center px-4">
-                <div className="w-full lg:w-[80%] max-w-[1200px]">
+                <div className="w-full lg:w-[70%] max-w-[1200px]">
                     <div className="flex flex-wrap justify-evenly  text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] my-6 text-center">
                         <a className="cursor-pointer hover:underline decoration-blue-400 underline-offset-4 transition-all" onClick={resetFilter}>Everything</a>
                         <a className="cursor-pointer hover:underline decoration-blue-400 underline-offset-4 transition-all" onClick={filterByTechnology}>Technology</a>
@@ -200,7 +200,7 @@ function Everthing() {
 
            
             <div   className="flex justify-center px-4 my-10">
-                <div  className="w-full lg:w-[80%] max-w-[1200px] flex flex-wrap justify-center gap-8">
+                <div  className="w-full lg:w-[70%] max-w-[1200px] flex flex-wrap justify-center gap-8">
                     {filteredData.map((item, index) => (
                         <a key={index} href={`/blog/${slugify(item.title)}`} className="w-full sm:w-[90%] md:w-[48%]">
                             <div className="overflow-hidden relative w-full h-[300px] rounded-lg">

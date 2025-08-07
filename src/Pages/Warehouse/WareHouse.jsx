@@ -165,14 +165,14 @@ function WareHouse() {
                 <WareHouseForm />
                 <div>
                     <div className='  flex justify-center mt-3 px-4 '>
-                        <div className='w-[100%] max-w-[1200px] my-10 lg:w-[80%] xl:w-[80%]'>
+                        <div className='w-[100%] max-w-[1200px] my-10 lg:w-[70%]'>
                             <h2 className=' text-2xl py-2  lg:p-0 sm:text-[24px] lg:text-[28px] font-normal '>Join India’s most loved grocery shopping platform</h2>
                             <p className=' leading-[24px] mt-4 lg:p-0 font-okra text-[17px]'>Become a warehouse partner and get best in class pay, plus benefits like nutritious meals, transportation facility, provident fund – in addition to salary, medical insurance coverage and 14 days paid leaves for Covid</p>
                         </div>
 
                     </div>
                     <div className=' flex  justify-center  my-[30px]'>
-                        <div className=' flex lg:flex-row flex-col justify-center items-center lg:w-[80%] w-full mx-4 max-w-[1200px]'>
+                        <div className=' flex lg:flex-row flex-col justify-center items-center lg:w-[70%] w-full mx-4 max-w-[1200px]'>
                             <div className=' lg:w-1/2 w-full flex justify-center '>
                                 <img src="https://blinkit.com/careers/sites/default/files/2021-07/warehouse_0.png" alt="" className=' lg:h-[350px] h-[320px] w-full sm:max-w-full sm:h-[400px]' />
 
@@ -206,7 +206,7 @@ function WareHouse() {
 
 
                 <div className="flex justify-center my-[30px]">
-                    <div className="w-[80%] relative max-w-[1200px]">
+                    <div className="w-[70%] relative max-w-[1200px]">
                         <h2 className="font-bold text-[28px] mb-6">Partner testimonials</h2>
 
                         <Swiper

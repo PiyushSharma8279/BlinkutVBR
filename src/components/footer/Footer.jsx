@@ -7,14 +7,14 @@ import { FaTwitter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import FooterText from './FooterText';
-import { Link } from 'react-router-dom';
+
 
 function Footer() {
     return (
         <>
             <FooterText />
             <div className=' bg-[#f5faf8] flex justify-center'>
-            <div className='flex flex-col justify-around content lg:flex-row w-[80%] max-w-[1200px] '>
+            <div className='flex flex-col justify-around content lg:flex-row w-[70%] max-w-[1200px] '>
                 <div className=' flex justify-between mx-8 lg:mx-0 lg:gap-10 '>
                     <div className='flex flex-col gap-2 innCont '>
                         <h2 className=' font-bold'>Company</h2>
