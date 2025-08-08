@@ -1,8 +1,41 @@
 import React from 'react'
 import Header from '../../components/header/Header'
 import Footer from '../../components/footer/Footer'
+import { useParams } from 'react-router-dom';
+
 
 function Resources() {
+
+    let datas =[
+                                {
+                                    title: "Annual Return",
+                                    img: "https://blinkit.com/careers/sites/default/files/2024-02/partner-express%20%282%29_0.png",
+                                },
+                                {
+                                    title: "Notice of GM",
+                                    img: "https://blinkit.com/careers/sites/default/files/2024-02/Isolation_Mode_0.png",
+                                },
+                                {
+                                    title: "Resignation",
+                                    img: "https://blinkit.com/careers/sites/default/files/2021-12/partner-local.png",
+                                },
+                                {
+                                    title: "Policies",
+                                    img: "https://blinkit.com/careers/sites/default/files/2021-12/partner-deliver.png",
+                                },
+
+    ]
+
+
+
+      const { slug } = useParams();
+ const slugify = (title) => {
+        return title
+            .toLowerCase()
+            .replace(/ /g, '-')
+            .replace(/[^\w-]+/g, '');
+    };
+     const item = datas.find(p => slugify(p.title) === slug);
     return (
         <>
         <div>
@@ -25,25 +58,8 @@ function Resources() {
                         <h2 className="text-2xl sm:text-3xl font-medium mb-6">Leadership and Legal Compliance</h2>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                            {[
-                                {
-                                    title: "Annual Return",
-                                    img: "https://blinkit.com/careers/sites/default/files/2024-02/partner-express%20%282%29_0.png",
-                                },
-                                {
-                                    title: "Notice of GM",
-                                    img: "https://blinkit.com/careers/sites/default/files/2024-02/Isolation_Mode_0.png",
-                                },
-                                {
-                                    title: "Resignation of Directors",
-                                    img: "https://blinkit.com/careers/sites/default/files/2021-12/partner-local.png",
-                                },
-                                {
-                                    title: "Policies",
-                                    img: "https://blinkit.com/careers/sites/default/files/2021-12/partner-deliver.png",
-                                },
-                            ].map((item, index) => (
-                                <a href='#'
+                            {datas.map((item, index) => (
+                                <a href={`${slugify(item.title)}`} 
                                     key={index}
                                     className="rounded-2xl bg-gradient-to-b from-[#275c5e] to-[#458d92] p-6 flex flex-col sm:flex-row-reverse justify-between items-center gap-4 text-white cursor-pointer"
                                 >

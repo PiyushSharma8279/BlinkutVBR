@@ -4,28 +4,34 @@ import { IoLogoGooglePlaystore } from "react-icons/io5"
 function DeliveryForm() {
     return (
         <>
-
-            <div className=' h-96  bg-white rounded-2xl lg:hidden xl:hidden  '>
-                <form className=' flex-col justify-between m-6 h-80'>
+            <div className='h-96 bg-white rounded-2xl lg:hidden xl:hidden'>
+                <form className='flex flex-col justify-between m-6 h-80'>
                     <div>
-                        <h1 className=' font-bold text-xl p-1 lg:text-2xl'>Become a Blinkut rider</h1>
+                        <h1 className='font-bold text-xl p-1 lg:text-2xl'>Become a Blinkut rider</h1>
                     </div>
                     <div>
-                        <p className=' p-1'>To deliver orders for Blinkit, please fill this form</p>
+                        <p className='p-1'>To deliver orders for Blinkit, please fill this form</p>
                     </div>
                     <div className='flex flex-col justify-around gap-4'>
                         <div>
-                            <input type="text" placeholder='name*' className=' bg-gray-200 p-2 rounded-xs w-[100%]' />
+                            <input
+                                type="text"
+                                placeholder='name*'
+                                className='bg-gray-200 p-2 rounded-xs w-full'
+                            />
                         </div>
                         <div>
-                            <input type="text" placeholder='phone*' className=' bg-gray-200 p-2 rounded-xs w-[100%]' />
-                            <p className=' text-gray-800  text-xs'>10 character(s) remaining</p>
-
+                            <input
+                                type="text"
+                                placeholder='phone*'
+                                className='bg-gray-200 p-2 rounded-xs w-full'
+                            />
+                            <p className='text-gray-800 text-xs'>10 character(s) remaining</p>
                         </div>
                     </div>
                     <div>
-                        <select className='w-[100%] p-2 bg-gray-200 my-2  text-gray-400'>
-                            <option value="" selected="selected" className=' text-gra'>select the city</option>
+                        <select className='w-full p-2 bg-gray-200 my-2 text-gray-400'>
+                            <option value="" selected>select the city</option>
                             <option value="Ahmedabad">Ahmedabad</option>
                             <option value="Bengaluru">Bengaluru</option>
                             <option value="Chandigarh">Chandigarh</option>
@@ -51,22 +57,30 @@ function DeliveryForm() {
                         </select>
                     </div>
 
-                    <button type='submit' className='bg-black px-12 w-[100%] py-3 text-white cursor-pointer rounded-xl' >join to earn</button>
+                    <button
+                        type='submit'
+                        className='bg-black px-12 w-full py-3 text-white cursor-pointer rounded-xl'
+                    >
+                        join to earn
+                    </button>
 
-                    <div className=' flex justify-center mt-2'>
-                        <div className="flex flex-row justify-center googleBtn">
-                            <IoLogoGooglePlaystore className="play-btn" />
-                            <div className="flex flex-col items-center txtCont">
-                                <p className="t1">GET IT ON</p>
-                                <p className="t2">Google Play</p>
+                    {/* Google Play Button */}
+                    <div className="flex justify-center mt-4">
+                        <a
+                            href="https://play.google.com/store"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center bg-black text-white px-4 py-2 rounded-lg gap-2"
+                        >
+                            <IoLogoGooglePlaystore size={30} className="text-white" />
+                            <div className="leading-tight text-left">
+                                <p className="text-xs">GET IT ON</p>
+                                <p className="text-sm font-semibold">Google Play</p>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </form>
             </div>
-
-
-
         </>
     )
 }
