@@ -190,9 +190,9 @@ function WareHouse() {
                                     <img src="https://blinkit.com/careers/sites/default/files/2021-12/warehouse-icon-transportation_1.png" alt="" className=' h-[50px] w-[50px] rounded-full ' />
                                     <h2 className=' font-bold text-[18px]'>Transportation</h2>
                                 </div>
-                                <div className=' lg:h-[170px] h-[100px] lg:flex lg:flex-col flex items-center  lg:justify-center lg:items-center shadow-[0px_0px_17.9767px_rgba(0,0,0,0.08)] rounded-lg'>
+                                <div className=' lg:h-[170px] h-[100px] lg:flex lg:flex-col flex items-center  lg:justify-center lg:items-center gap-5 shadow-[0px_0px_17.9767px_rgba(0,0,0,0.08)] rounded-lg'>
                                     <img src="https://blinkit.com/careers/sites/default/files/2021-12/warehouse-icon-medical_1.png" alt="" className=' h-[50px] w-[50px] rounded-full ' />
-                                    <h2 className=' font-bold text-[18px]'>Insurance</h2>
+                                    <h2 className=' font-bold text-[18px]'>Medical Insurance</h2>
                                 </div>
 
                             </div>
