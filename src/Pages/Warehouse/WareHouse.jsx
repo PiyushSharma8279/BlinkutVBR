@@ -177,7 +177,7 @@ function WareHouse() {
                                 <img src="https://blinkit.com/careers/sites/default/files/2021-07/warehouse_0.png" alt="" className=' lg:h-[350px] h-[320px] w-full sm:max-w-full sm:h-[400px]' />
 
                             </div>
-                            <div className=' flex flex-col lg:grid lg:grid-cols-2 gap-4 lg:w-1/2 w-full px-4'>
+                            <div className=' flex flex-col lg:grid lg:grid-cols-2 gap-4 lg:w-1/2 w-full px-4 mt-2'>
                                 <div className=' lg:h-[170px] h-[100px] lg:flex lg:flex-col flex  items-center  lg:justify-center lg:items-center gap-5 shadow-[0px_0px_17.9767px_rgba(0,0,0,0.08)] rounded-lg w-full'>
                                     <img src="https://blinkit.com/careers/sites/default/files/2021-12/warehouse-icon-salary_1.png" alt="" className=' h-[50px] w-[50px] rounded-full ' />
                                     <h2 className=' font-bold text-[18px]'>₹25,000 salary</h2>
@@ -192,7 +192,7 @@ function WareHouse() {
                                 </div>
                                 <div className=' lg:h-[170px] h-[100px] lg:flex lg:flex-col flex items-center  lg:justify-center lg:items-center shadow-[0px_0px_17.9767px_rgba(0,0,0,0.08)] rounded-lg'>
                                     <img src="https://blinkit.com/careers/sites/default/files/2021-12/warehouse-icon-medical_1.png" alt="" className=' h-[50px] w-[50px] rounded-full ' />
-                                    <h2 className=' font-bold text-[18px]'>Medical Insurance</h2>
+                                    <h2 className=' font-bold text-[18px]'>Insurance</h2>
                                 </div>
 
                             </div>
