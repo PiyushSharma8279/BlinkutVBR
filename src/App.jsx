@@ -15,6 +15,7 @@ import Phone from "./Pages/Phone/Phone";
 import Security from "./Pages/Security/Security";
 import Value from "./Pages/Value/Value";
 import AnnualReturn from "./Pages/Resources/InnerPages/AnnualReturn";
+import Press from "./Pages/Press/Press";
 
 
 
@@ -34,6 +35,7 @@ function App() {
          <Route path="/security" element={<Security/>}/>
          <Route path="/value" element={<Value/>}/>
          <Route path="/:slug" element={<AnnualReturn/>}/>
+         <Route path="/press" element={<Press/>}/>
 
 
 

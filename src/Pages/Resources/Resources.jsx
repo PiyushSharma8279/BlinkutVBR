@@ -6,40 +6,40 @@ import { useParams } from 'react-router-dom';
 
 function Resources() {
 
-    let datas =[
-                                {
-                                    title: "Annual Return",
-                                    img: "https://blinkit.com/careers/sites/default/files/2024-02/partner-express%20%282%29_0.png",
-                                },
-                                {
-                                    title: "Notice of GM",
-                                    img: "https://blinkit.com/careers/sites/default/files/2024-02/Isolation_Mode_0.png",
-                                },
-                                {
-                                    title: "Resignation",
-                                    img: "https://blinkit.com/careers/sites/default/files/2021-12/partner-local.png",
-                                },
-                                {
-                                    title: "Policies",
-                                    img: "https://blinkit.com/careers/sites/default/files/2021-12/partner-deliver.png",
-                                },
+    let datas = [
+        {
+            title: "Annual Return",
+            img: "https://blinkit.com/careers/sites/default/files/2024-02/partner-express%20%282%29_0.png",
+        },
+        {
+            title: "Notice of GM",
+            img: "https://blinkit.com/careers/sites/default/files/2024-02/Isolation_Mode_0.png",
+        },
+        {
+            title: "Resignation",
+            img: "https://blinkit.com/careers/sites/default/files/2021-12/partner-local.png",
+        },
+        {
+            title: "Policies",
+            img: "https://blinkit.com/careers/sites/default/files/2021-12/partner-deliver.png",
+        },
 
     ]
 
 
 
-      const { slug } = useParams();
- const slugify = (title) => {
+    const { slug } = useParams();
+    const slugify = (title) => {
         return title
             .toLowerCase()
             .replace(/ /g, '-')
             .replace(/[^\w-]+/g, '');
     };
-     const item = datas.find(p => slugify(p.title) === slug);
+    const item = datas.find(p => slugify(p.title) === slug);
     return (
         <>
-        <div>
-             <div className="w-full bg-gradient-to-b from-[#275c5e] to-[#458d92] mt-13 flex justify-center">
+            <div>
+                <div className="w-full bg-gradient-to-b from-[#275c5e] to-[#458d92] mt-13 flex justify-center">
                     <div className=" max-w-[1200px] w-full">
                         <img
                             src="https://blinkit.com/careers/sites/default/files/2024-04/Group%2024680.png"
@@ -53,13 +53,13 @@ function Resources() {
                         </div>
                     </div>
                 </div>
-                  <div className="flex justify-center px-4">
+                <div className="flex justify-center px-4">
                     <div className="w-[80%] max-w-6xl my-10">
                         <h2 className="text-2xl sm:text-3xl font-medium mb-6">Leadership and Legal Compliance</h2>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                             {datas.map((item, index) => (
-                                <a href={`${slugify(item.title)}`} 
+                                <a href={`${slugify(item.title)}`}
                                     key={index}
                                     className="rounded-2xl bg-gradient-to-b from-[#275c5e] to-[#458d92] p-6 flex flex-col sm:flex-row-reverse justify-between items-center gap-4 text-white cursor-pointer"
                                 >
@@ -77,10 +77,10 @@ function Resources() {
                         </div>
                     </div>
                 </div>
-        </div>
-        <Footer/>
-        
-        
+            </div>
+            <Footer />
+
+
         </>
     )
 }
