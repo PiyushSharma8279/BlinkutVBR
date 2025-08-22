@@ -1,9 +1,11 @@
 import React from 'react'
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 function Everthing() {
+    const navigate = useNavigate()
    
 
     const data = [
@@ -201,7 +203,7 @@ function Everthing() {
             <div   className="flex justify-center px-4 my-10">
                 <div  className="w-full lg:w-[70%] max-w-[1200px] flex flex-wrap justify-center gap-8">
                     {filteredData.map((item, index) => (
-                        <a key={index} href={`/blog/${slugify(item.title)}`} className="w-full sm:w-[90%] md:w-[48%]">
+                        <a key={index} onClick={() => navigate(`/blog/${slugify(item.title)}`)} className="w-full sm:w-[90%] md:w-[48%]">
                             <div className="overflow-hidden relative w-full h-[300px] rounded-lg">
                                 <img
                                     src={item.img}
